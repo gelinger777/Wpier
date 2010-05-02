@@ -11,7 +11,7 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://ruslaminat.virtplace.ru/";
+$config['base_url']	= "http://edit.ru/";
 
 /*
 |--------------------------------------------------------------------------
