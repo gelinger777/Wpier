@@ -1,0 +1,21 @@
+%ALL%
+<!--<h1>%pageTitle%</h1>
+
+%cBefo reTend%-->
+
+<table class="tablichka">
+<tr><td class="th">название</td><td class="th">сроки</td>
+<?if ("%havedescr%" != '') {?><td class="th">описание</td><?}?>
+<td class="th">проект</td><td>&nbsp;</td></tr>
+<tr><td colspan="5" class="line"><hr /></td>
+%list%
+</table>
+<!--%cAfterTe nd%-->
+%/ALL%
+
+%ONE%
+<tr><td class="td">%name%</td><td class="td">c <?=echoDate("d.m.Y","%ot%")?> по <?=echoDate("d.m.Y","%do%")?></td>
+<?if ("%havedescr%" != '') {?><td class="td">%descr%</td><?}?>
+<td class="td">%otvetstv%</td><td class="status">%status%</td></tr>
+<tr><td colspan="5" class="line"><hr /></td>
+%/ONE%

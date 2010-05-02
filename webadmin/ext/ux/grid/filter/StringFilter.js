@@ -1,0 +1,63 @@
+Ext.ux.grid.filter.StringFilter = Ext.extend(Ext.ux.grid.filter.Filter, {
+	updateBuffer: 500,
+	icon: './ext/img/find.png',
+	
+	init: function(){
+		var value = this.value = new Ext.ux.menu.EditableItem({icon: this.icon});
+		value.on('keyup', this.onKeyUp, this);
+		value.on('click', this.onClick, this);
+		this.menu.add(value);
+		
+		this.updateTask = new Ext.util.DelayedTask(this.fireUpdate, this);
+	},
+	
+	onClick: function(event) {
+		//print_r(event);		
+	},
+	
+	onKeyUp: function(event){
+		
+		event.stopPropagation();
+		
+		if(event.getKey() == event.ENTER){
+			this.menu.hide(true);
+			return true;
+		}		
+		this.updateTask.delay(this.updateBuffer);
+	},
+	
+	isActivatable: function(){
+		return this.value.getValue().length > 0;
+	},
+	
+	fireUpdate: function(){		
+		if(this.active)
+			this.fireEvent("update", this);
+			
+		this.setActive(this.isActivatable());
+	},
+	
+	setValue: function(value){
+		this.value.setValue(value);
+		this.fireEvent("update", this);
+	},
+	
+	getValue: function(){
+		return this.value.getValue();
+	},
+	
+	serialize: function(){
+		var args = {type: 'string', value: this.getValue()};
+		this.fireEvent('serialize', args, this);
+		return args;
+	},
+	
+	validateRecord: function(record){
+		var val = record.get(this.dataIndex);
+		
+		if(typeof val != "string")
+			return this.getValue().length == 0;
+			
+		return val.toLowerCase().indexOf(this.getValue().toLowerCase()) > -1;
+	}
+});

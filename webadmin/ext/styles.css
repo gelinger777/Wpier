@@ -1,0 +1,341 @@
+    html, body {
+        font:normal 12px verdana;
+        margin:0;
+        padding:0;
+        border:0 none;
+        overflow:hidden;
+        height:100%;
+    }
+    #helpDiv{padding:5px;}
+    p{margin:5px;}
+    .settings {background-image:url(img/hammer_screwdriver.png);}
+    .modulsico {background-image:url(img/applications_blue.png);}
+    .nav {background-image:url(img/folder_go.png);}
+    .editIco {background-image:url(img/editor.gif);}
+    .previco {background-image:url(img/preview.png);}
+    .add {background-image:url(img/plus_circle.png) !important;}
+    #centerColumn {
+      height:100%;
+      /*background:url(img/wallpapers/blue.jpg) no-repeat left top;*/
+    }    
+    .top_closeall{background-image:url(img/close_all_cntr.gif) !important;}
+
+	.go{background-image:url(img/arrow.png) !important;}
+	.info{background-image:url(img/information_frame.png) !important;}
+	.publview{background-image:url(img/globe__arrow.png) !important;}
+	.publviewtab{background-image:url(img/globe_medium.png) !important;}
+
+    .webserv{background-image:url(img/gear__pencil.png) !important;}
+    .map{background-image:url(img/map.gif) !important;}
+    .error{background:url(img/error.gif) no-repeat !important;}   
+	.warning{background:url(images/default/window/icon-warning.gif) no-repeat !important;}  
+    .usr{background-image:url(img/usr.gif) !important;}
+    .cut{background-image:url(img/cut.gif) !important;}
+    .copy{background-image:url(img/main/copy.gif) !important;}
+    .copyall{background-image:url(img/main/copyall.gif) !important;}
+    .paste{background-image:url(img/clipboard_paste.png) !important;}
+    .folderClosed{background-image:url(img/folderClosed.gif) !important;}
+    .editor{background-image:url(img/document__pencil.png) !important;}
+    .preview{background-image:url(img/magnifier_left.png) !important;}
+    .acc{background-image:url(img/lock.png) !important;}
+    .delete{background-image:url(img/minus_circle.png) !important;}
+    .up{background-image:url(img/up.gif) !important;}
+    .down{background-image:url(img/down.gif) !important;}        
+    .publ1{background-image:url(img/globe.png) !important;}
+    .refresh{background-image:url(img/arrow_circle.png) !important;}
+    .openall{background-image:url(img/toggle.png) !important;}
+    .closeall{background-image:url(img/toggle_collapse.png) !important;}    
+    .back{background-image:url(img/arrow-left.gif) !important;}
+    .forv{background-image:url(img/arrow-right.gif) !important;}    
+    .save{background-image:url(img/editor/save.gif) !important;}
+	.ed_clr{background-image:url(img/editor/modhtml.gif) !important;}
+    .ed_b{background-image:url(img/editor/edit-bold.png) !important;}
+    .ed_i{background-image:url(img/editor/edit-italic.png) !important;}
+    .ed_u{background-image:url(img/editor/edit-underline.png) !important;}
+    .ed_a1{background-image:url(img/editor/a1.gif) !important;}
+    .ed_a2{background-image:url(img/editor/a2.gif) !important;}
+    .ed_ol{background-image:url(img/editor/edit-list-order.png) !important;}
+    .ed_ul{background-image:url(img/editor/edit-list.png) !important;}
+    .ed_ta1{background-image:url(img/editor/ta1.gif) !important;}
+    .ed_ta2{background-image:url(img/editor/ta2.gif) !important;}
+    .ed_ta3{background-image:url(img/editor/ta3.gif) !important;}
+    .ed_href{background-image:url(img/editor/href.gif) !important;}
+    .ed_Indent{background-image:url(img/editor/indent.gif) !important;}  
+    .ed_Outdent{background-image:url(img/editor/outdent.gif) !important;}
+    .ed_img{background-image:url(img/editor/img.gif) !important;}   
+	
+	.ed_ial_bottom {background-image:url(img/editor/im_al_bottom.gif) !important;}
+	.ed_ial_top {background-image:url(img/editor/im_al_top.gif) !important;}
+	.ed_ial_middle {background-image:url(img/editor/im_al_middle.gif) !important;}
+	.ed_ial_left {background-image:url(img/editor/im_al_left.gif) !important;}
+	.ed_ial_right {background-image:url(img/editor/im_al_right.gif) !important;}
+
+	.ed_i_alt {background-image:url(img/editor/im_alt.gif) !important;}
+
+	.ed_i_width{padding-left:17px;background-image:url(img/editor/im_width.gif);background-repeat:no-repeat;background-position:center left }
+	.ed_i_height{padding-left:17px;background-image:url(img/editor/im_height.gif);background-repeat:no-repeat;background-position:center left}
+	.ed_i_vspace{padding-left:17px;background-image:url(img/editor/im_vspace.gif);background-repeat:no-repeat;background-position:center left}
+	.ed_i_hspace{padding-left:17px;background-image:url(img/editor/im_hspace.gif);background-repeat:no-repeat;background-position:center left}
+    
+	.favorit {background-image:url(img/fav.gif) !important;}
+
+	#north {
+      padding-left:0px;
+      color:red;
+      font-size:12px;
+      font-weight:bold;
+    }
+    .close {background-image:url(img/main/close.gif) !important;}
+    .exit {background-image:url(img/power_off.png) !important;}
+
+  .lefttools {
+    width:100%;
+    height:100%;
+    overflow:auto;
+  }
+  
+  .lefttools1 {
+    border-bottom:1px solid #144FA5;
+  }
+  
+  #modulsDiv {
+    padding:5px;
+    ocerflow:auto;
+  }
+  
+  .toolDiv {
+    float:left;
+    width:100px;
+    height:60px;
+    padding:3px;
+    text-align:center;
+  }
+  .toolDiv a {
+    font-family:Arial;
+    font-size:12px;
+  }
+  
+  #SpecDivChecker {
+    width:100%;
+    height:17px;
+    background:#efefef;
+    border:1px solid #afafaf;
+    margin-left:5px;
+    padding-left:10px;
+    padding-top:2px;
+  }
+  
+  #SpecDivChecker a {
+    text-decoration:none;
+    font-weight:bold;
+  }
+  
+  .x-resizable-proxy{
+    background:#C7DFFC;
+    opacity:.5;
+    -moz-opacity:.5;
+    filter:alpha(opacity=50);
+    border: 1px solid #3b5a82;
+}
+
+/* Desktop Shortcuts */
+.x-shortcuts dt {
+    float:left;
+    margin:3px 0 0 10px;
+    /*clear:left;*/
+    width:74px;
+    height:45px;
+    font:normal 10px arial,tahoma,verdana,sans-serif;
+    text-align:center;
+    zoom:1;
+    /*display:block; */
+}
+.x-shortcuts dt a {
+    width:74px;
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-family:Arial;
+}
+.x-shortcuts dt div {
+    width:100%;
+    color:black;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    cursor:pointer;
+    float:left;
+    font-family:Arial;
+}
+.ext-ie .x-shortcuts dt img {
+    background:transparent !important;
+}
+.x-shortcuts dt a:hover {
+    text-decoration:underline;
+}
+
+.xx-shortcuts dt {
+    float:left;
+    margin:15px 0 0 15px;
+    /*clear:left;*/
+    width:74px;
+    height:35px;
+    font:normal 10px arial,tahoma,verdana,sans-serif;
+    text-align:center;
+    zoom:1;
+    /*display:block; */
+}
+.xx-shortcuts dt a {
+    width:74px;
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-family:Arial;
+}
+.xx-shortcuts dt div {
+    width:100%;
+    color:black;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    cursor:pointer;
+    float:left;
+    font-family:Arial;
+}
+.ext-ie .xx-shortcuts dt img {
+    background:transparent !important;
+}
+.xx-shortcuts dt a:hover {
+    text-decoration:underline;
+}
+
+
+/* два класса для кнопки задач */
+.taskpassive{background-image:url(../xprogramms/tasks/ico_small.gif) !important;}
+.taskactive{background-image:url(../xprogramms/tasks/ico_ani.gif) !important;}
+
+/* стили для вьюпортов */
+/*
+ * Ext JS Library 2.0.2
+ * Copyright(c) 2006-2008, Ext JS, LLC.
+ * licensing@extjs.com
+ * 
+ * http://extjs.com/license
+ */
+
+.x-panel-body{
+	background: white;	
+}
+.thumb{
+	background: #ffffff;
+	padding: 3px;
+	text-align:center;
+}
+.thumb img{
+	height: 16px;
+	width: 16px;	
+}
+.thumb-wrap{
+	float: left;
+	margin: 2px;
+	margin-right: 0;
+	padding: 2px;
+	width:80px;
+	height:45px;
+	overflow:hidden;
+	font: 9px Arial, Helvetica, sans-serif;
+	text-align:center;
+	cursor:pointer;
+}
+.thumb-wrap span{
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+
+.x-view-over{
+    border:1px solid #dddddd;
+    background: #efefef url(images/default/grid/row-over.gif) repeat-x left top;
+	padding: 1px;
+}
+
+.x-view-selected{
+	background: #eff5fb url(images/selected.gif) no-repeat right bottom;
+	border:1px solid #99bbe8;
+	padding: 1px;
+}
+.x-view-selected .thumb{
+	background:transparent;
+}
+
+.loading-indicator {
+	font-size:9px;
+	background-image:url('images/default/grid/loading.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:20px;
+	margin:10px;
+}
+
+#desktop-view .x-panel-body{
+	background: none;	
+}
+#desktop-view .thumb{
+	background: none;
+	padding: 3px;
+	text-align:center;
+}
+
+#desktop-view .x-panel-body{
+	background: red;	
+}
+
+#desktop-view {
+	/*background:url(img/wallpapers/blue.jpg) no-repeat left top;*/
+}
+#DescTopArea {
+	/*background:url(img/wallpapers/blue.jpg) no-repeat left top;*/
+}
+
+#DescTopArea .thumb-wrap{
+	float: left;
+	margin: 2px;
+	margin-right: 0;
+	padding: 2px;
+	width:90px;
+	height:65px;
+	overflow:hidden;
+	font: 9px Arial, Helvetica, sans-serif;
+	text-align:center;
+	cursor:pointer;
+}
+
+.status {
+    color:#555;
+}
+.x-progress-wrap.left-align .x-progress-text {
+    text-align:left;
+}
+.x-progress-wrap.custom {
+    height:17px;
+    border:1px solid #686868;
+    overflow:hidden;
+    padding:0 2px;
+}
+.ext-ie .x-progress-wrap.custom {
+    height:19px;
+}
+
+/* Иконки для различных типов страниц в дереве */
+.file1 {background-image:url(img/document__pencil.png) !important;}
+.file2 {background-image:url(img/document__exclamation.png) !important;}
+.file3 {background-image:url(img/document__minus.png) !important;}
+
+.folder1 {background-image:url(img/folder__pencil.png) !important;}
+.folder2 {background-image:url(img/folder__exclamation.png) !important;}
+.folder3 {background-image:url(img/folder__minus.png) !important;}
+
+
+.office-add {background-image:url(img/office_add.png) !important;}
+.office-replace {background-image:url(img/office_replace.png) !important;}
+.fav-add {background-image:url(img/star--plus.png) !important;}
+
+.help {background-image:url(img/question-frame.png) !important;}

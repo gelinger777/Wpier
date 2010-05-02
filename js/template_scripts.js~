@@ -1,0 +1,47 @@
+window.addEvent("load",function(){
+	if($('stylearea')){
+		$('st_icon-1').setStyle("display","block");
+		$('st_icon-2').setStyle("display","block");
+	
+		var efx1 = new Fx.Opacity('st_icon-1');
+		var efx2 = new Fx.Opacity('st_icon-2');
+		var ix = 0; 
+		efx1.hide();
+		efx2.hide();
+	
+		$A($$('.style_switcher')).each(function(element,index){
+			if(index !== 0){
+				element.addEvent('click',function(event){
+					var event = new Event(event);
+					event.preventDefault();
+					changeStyle(index);
+				});
+			}
+			else{
+				element.addEvent('click',function(event){
+					var event = new Event(event);
+					event.preventDefault();
+				
+					if(ix%2 == 0){
+						efx1.toggle();
+						(function(){efx2.toggle();}).delay(250);
+					}
+					else{
+						efx2.toggle();
+						(function(){efx1.toggle();}).delay(250);
+					}
+					ix++;
+				});
+			}
+		});
+		template_path = gk8_path;
+		new SmoothScroll();
+	}
+});
+
+function changeStyle(style){
+	var file = template_path+'css/style'+style+'.css';
+	new Asset.css(file);
+	new Cookie.set('gk8_temp_style',style,{duration: 200,path: "/"});
+	actual_style = style;
+}

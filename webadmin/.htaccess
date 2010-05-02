@@ -1,0 +1,13 @@
+RewriteEngine Off
+
+DirectoryIndex index.html index.htm index.phtml index.php
+
+#Deny from all
+#Allow from 172.24. 172.25. 172.27. 192.168. 10. 172.20. 172.27. 172.21.
+
+AddDefaultCharset utf-8
+#php_value session.use_trans_sid 0
+#php_value magic_quotes_gpc 1
+#php_value safe_mode 0
+#php_value disable_functions "popen,exec,system,passthru,proc_open,shell_exec"
+

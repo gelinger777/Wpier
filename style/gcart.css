@@ -1,0 +1,62 @@
+
+#wrapper { margin:30px auto 30px auto; width:400; border:solid 1px #ccc; padding:30px; background:#efefef; }
+
+.highlight { background:#ffff99; }
+
+div.hr { border-bottom:dashed 2px #66cc66; margin:40px auto; }
+div.hr hr { display:none; }
+
+#content, .wide p  { width:60%; }
+
+.gcart { margin:0 20px 20px 0; padding-top:20px; border:dashed 2px #66cc66; float:left; background:#fff; text-align:center; }
+.gcart ul { margin:0; list-style:none; padding:0 20px; text-align:left; }
+.gcart fieldset { border:0; }
+.gcart strong { color:#000066; }
+.gcart .button { margin:20px; padding:5px; }
+
+pre, code { display:block; overflow:scroll; border:solid 1px #000; padding:5px; }
+pre, code, strong.code { background:#fff; font-family:monospace; }
+
+p.next a { display:block; border:solid 1px #66cc66; color:#009900; padding:5px; margin:40px auto 0 auto; text-align:center; text-decoration:none; background:#ccffcc; font-weight:bold; width:50%; }
+p.next a:hover { border:solid 1px #000; }
+p.next a span { color:#000; }
+
+
+
+
+
+#gcart * { margin:0; padding:0; font-family:arial, tahoma, verdana, sans-serif; }
+#gcart, #gcart input, #gcart-tooltip { font-size:12px; }
+
+#gcart fieldset { border:0; }
+
+#gcart table { width:100%; border:0; background:#fff; border-collapse:collapse; }
+#gcart tr {  }
+#gcart th, #gcart td { padding:5px; border:0; border:solid 1px #ccc; vertical-align:top; text-align:left; font-weight:normal; }
+#gcart td.empty { text-align:center; }
+
+#gcart p.gcart-error { text-align:center; padding:5px; }
+
+#gcart strong#gcart-title {  }
+
+#gcart th { background:#ccffcc }
+#gcart th#header {  }
+#gcart th#footer {  }
+
+#gcart td.gcart-item-qty { width:25%; }
+#gcart td.gcart-item-name { width:50%; font-weight:bold; }
+#gcart td.gcart-item-price { width:25%; font-weight:bold; text-align:right; }
+#gcart td.gcart-item-price span { display:block; }
+
+#gcart a.gcart-remove { font-size:11px; font-weight:normal; }
+
+#gcart span#gcart-subtotal { display:block; }
+#gcart span#gcart-subtotal strong {  }
+
+#gcart input.gcart-button { padding:2px; margin:2px;}
+
+#gcart input#gcart-checkout { float:right; }
+
+#gcart input#gcart-paypal-checkout { display:block; padding:10px; margin:20px auto; }
+
+#gcart-tooltip { border:solid 1px #000; padding:3px 7px 3px 25px; background:url(checkmark.png) 3px center no-repeat #f2fcee;  }

@@ -1,0 +1,14 @@
+.folder-ext{background:url(img/folder.gif) no-repeat left center}
+.gif-ext{background:url(img/gif.gif) no-repeat left center}
+.jpeg-ext{background:url(img/jpeg.gif) no-repeat left center}
+.jpg-ext{background:url(img/jpg.gif) no-repeat left center}
+.doc-ext{background:url(img/doc.gif) no-repeat left center}
+.txt-ext{background:url(img/txt.gif) no-repeat left center}
+.top-ext{background:url(img/top.gif)  !important}
+.top-refr{background-image:url(img/table_refresh.png) !important;}
+.top-addfold{background-image:url(img/folder_add.png) !important;}
+.top-selall{background-image:url(img/sel_all.png) !important;}
+
+.fmng-add{background-image:url(img/add.gif) !important;}
+.fmng-delete{background-image:url(img/delete.gif)  !important;}
+.fmng-copy{background-image:url(img/copy.gif) !important;}

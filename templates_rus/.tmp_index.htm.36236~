@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<title>Buratino-Shop Home</title>
+<META content="<?=$windescript;?>" name=Description>
+<META content="<?=$winkeywords;?>" name=keywords>
+
+<meta name="robots" content="index, follow" />
+
+<meta name="author and developer" content="G.Grigorian" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/style/style_shop.css" rel="stylesheet"  type="text/css" />
+
+<link href="/style/suckerfish.css" rel="stylesheet"  type="text/css" />
+<link href="/style/template_css.css" rel="stylesheet"  type="text/css" />
+<link href="/style/style1.css" rel="stylesheet"  type="text/css" />
+<!--[if IE 6]>
+<style type="text/css">
+img { behavior: url(/style/iepngfix.htc); }
+
+
+div#flashwrap {
+background: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/icon_shop.png", sizingMethod="crop");}
+
+</style>
+<link href="/style/ie6_css.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="/style/ie7_css.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+
+<body id="bg">
+<div id="pagewrap">
+        <div id="topwrap">
+                <a href="./" id="logo"></a>
+                                <div id="flashwrap">
+                        <div>
+                <a class="mainlevel" href="26">
+                Show Cart</a>
+            <br />Your Cart is currently empty.	    
+
+</div>
+                </div>
+                                <!--topwrap-->
+        </div>
+        <div id="menu">
+                <div id="horiz-menu">
+                        <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("horiznav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfHover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfHover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]>
+</script>
+
+
+<?=$top_menu;?>
+
+         </div>
+        </div>
+        <div id="contentwrap">
+                <div id="l_w-1">
+                                                <!--leftblock-->
+                        <div id="conwrap">
+                                                                <div id="r_w1-2">
+                                                                                                                        <div id="pathway">
+
+                                                <span class="pathway"><a href="http://demo.gavick.com/joomla10/nov2007/index.php" class="pathway">Home</a> <img src="http://demo.gavick.com/joomla10/nov2007/templates/rhuk_solarflare_ii/images/arrow.png" border="0" alt="arrow" /> <a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=blogsection&amp;id=0&amp;Itemid=9" class="pathway">Blog</a> <img src="http://demo.gavick.com/joomla10/nov2007/templates/rhuk_solarflare_ii/images/arrow.png" border="0" alt="arrow" />   Give iTunes Gift Cards </span>                                        </div>
+                                        <div id="mainbody">
+                                                				<?=$BLOCK0;?>
+
+		                                        </div>
+                                                                                                                        <!--prawa zagniezdzona -->
+                                </div>
+
+                                <!--conwrap -->
+                        </div>
+                </div>
+                                <div id="r_w">
+                        		<div class="module-default icon5">
+			<div>
+				<div>
+					<div>
+
+
+<?=$BLOCK1;?>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+		                </div>
+                                <!--contentwrap-->
+                        </div>
+         <!--pagewrap-->
+        <div id="footer">     
+    
+<div id="upinfo">Shop-Hotline: 0676 510 29</div> 
+
+    <div id="stylearea">    
+       <a href="#bg" id="top"></a>
+
+       <a href="#" class="style_switcher" id="st_icon-0"></a> 
+       <a href="#" class="style_switcher" id="st_icon-1"></a> 
+       <a href="#" class="style_switcher" id="st_icon-2"></a>      
+    </div>
+        
+<!-- Footer Hyperlinks -->
+<div id="links">
+	
+<a title="agb" href="/node/3">AGB</a> | <a title="Impressum" href="/node/4">Impressum &amp; Haftungsausschluss</a> | <a title="kontakt" href="/content/anfrageformular">Konakt</a>
+
+
+  </div><!-- /block-inner -->
+
+	
+	</div>
+
+<!-- Copyright Information -->
+<div id="copyright">Development and Support &copy; <a href="http://www.gevork.ru" target="_blank">G.Grigorian</a>. All rights reserved.</div>
+     </div>
+</div>
+</body>
+</html>

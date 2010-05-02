@@ -1,0 +1,1 @@
+<?$INIT=array("name"=>"Менеджер файлов","id"=>"filemanager","descript"=>"Управление файлами","basedir"=>"filemanager/","runstr"=>'App.RunOutApp("/'.$_CONFIG["ADMINDIR"].'/xprogramms/filemanager/fman")',"icon_big"=>"disk.png","icon_small"=>"disk.png","css"=>"icons.css",);

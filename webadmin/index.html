@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Wpier - Admin console</TITLE>
+<style>
+body {
+	 font-size:11px;
+	 font-family:Arial;
+	 background:#f6f9fe url(img/blue.jpg) no-repeat left top;
+}
+</style>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+LocalLog=false;
+function LoadProg() {
+  document.getElementById('ProgrammFrame').src='index.php';
+}
+
+function OnLoadProg() {
+  document.getElementById('LoadTab').style.display='none';
+  document.getElementById('ProgrammFrame').style.display='';
+}
+
+function NextLoad(sid) {
+   LocalLog=true;
+}
+//-->
+</SCRIPT>
+</HEAD>
+<body onload="LoadProg()" onkeydown="return false" style="margin:0;padding:0;border:0;" SCROLLING="no"><table id="LoadTab" width="100%" height="100%"><tr><td align="center">
+<table><tr><td><img src="img/loading.gif" alt="" /></td><td>Подождите, идет загрузка...</td></tr></table>
+</td></tr></table><iframe id="ProgrammFrame" width="100%" height="100%" frameborder="no" SCROLLING="no" style="display:none"></iframe></body>
+</HTML>

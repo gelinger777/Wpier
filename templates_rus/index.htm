@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<title>Buratino-Shop Home</title>
+<META content="<?=$windescript;?>" name=Description>
+<META content="<?=$winkeywords;?>" name=keywords>
+
+<meta name="robots" content="index, follow" />
+
+<meta name="author and developer" content="G.Grigorian" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/style/style_shop.css" rel="stylesheet"  type="text/css" />
+
+<link href="/style/suckerfish.css" rel="stylesheet"  type="text/css" />
+<link href="/style/template_css.css" rel="stylesheet"  type="text/css" />
+<link href="/style/style1.css" rel="stylesheet"  type="text/css" />
+<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/js/highslide-with-html.packed.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/style/colorbox.css" />
+<link href="/style/suckerfish.css" rel="stylesheet"  type="text/css" />
+<link href="/style/template_css.css" rel="stylesheet"  type="text/css" />
+<link href="/style/style1.css" rel="stylesheet"  type="text/css" />
+  <script type="text/javascript" src="/js/simple.carousel.0.1.min_.js"></script>
+  <script type="text/javascript" src="/js/imageResize.js"></script>
+<!--[if IE 6]>
+<style type="text/css">
+img { behavior: url(/style/iepngfix.htc); }
+
+
+div#flashwrap {
+background: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/img/icon_shop.png", sizingMethod="crop");}
+
+</style>
+<link href="/style/ie6_css.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="/style/ie7_css.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<script language="javascript" type="text/javascript">
+
+hs.preserveContent = false;
+hs.graphicsDir = '/js/highslide/graphics/';
+hs.showCredits = false;
+hs.loadingText = 'Загрузка...';
+hs.loadingTitle = 'Нажмите для отмены';
+hs.restoreTitle = 'Удерживая левую кнопку мыши, можно перетаскивать изображение.';
+hs.outlineWhileAnimating = true;
+hs.outlineType = 'drop-shadow';
+hs.marginLeft = 0;
+hs.marginRight = 0;
+hs.marginTop = 0;
+hs.marginBottom = 0;
+hs.minWidth = 500;
+hs.minHeight = 480;
+hs.maxHeight = 680;
+hs.cacheAjax = false;
+hs.preserveContent  = false;
+hs.Expander.prototype.getCacheBinding = function() { return null; }
+
+
+
+
+
+
+
+</script>
+<script type="text/javascript" src="/js/jquery.colorbox.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				//Examples of how to assign the ColorBox event to elements
+			$("a[rel='example4']").colorbox({slideshow:false});
+	$("a[rel='example7']").colorbox({width:"50%", height:"100%", iframe:true,rel:"nofollow",});
+
+				$("#click").click(function(){
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+
+<script language="javascript" type="text/javascript">
+
+function addToCart(prod_id,preword,token) {
+	
+	//alert(preword);
+	// we want to store the values from the form input box, then send via ajax below
+	var qty     = $('#qty_'+preword+'_'+prod_id).attr('value');
+//alert('qty_'+preword+'_'+prod_id);
+	//var token     = $('#token').attr('value');
+	
+	//var lname     = $('#lname').attr('value');
+		$.ajax({
+			type: "POST",
+			url: "/shop/add_to_cart/",
+			data: "prod_id="+ prod_id +"&token="+ token+"&qty="+ qty,
+		
+			success: function(data){
+		
+		
+		
+		
+			    if(data==='OK'){
+				
+				
+
+
+$.post("/shop/show_top_cart/", function(new_cart){
+  $("#korzinka").html(new_cart);
+
+ });
+
+
+     $("#waren_"+prod_id).html("Danke, Die Ware ist im Warenkorb <img src='/img/face_smile.png' width='20' style=\'border:0;\'>");
+
+	$("#internal_add-to-cart_"+prod_id).fadeOut("slow");
+	$("#add-to-cart_"+prod_id).html("Danke, Die Ware ist im Warenkorb <img src='/img/face_smile.png' src='20'>");
+
+//$("#korzinka").fadeOut("slow");
+
+				
+				
+				
+				
+					
+				}
+				else{
+					
+					
+					alert(data);
+				}
+
+
+			}
+		});
+
+
+
+
+	}
+
+
+
+	
+
+</script>
+
+
+<style type="text/css">
+.highslide {
+	cursor: url(/js/highslide/graphics/zoomin.cur), pointer;
+  outline: none;
+}
+.highslide-wrapper {
+	background: #eaeaea;
+}
+.highslide-html {
+	border: 1px solid #656565;
+}
+
+.highslide-html-content .highslide-header {
+  display: none;
+}
+
+.highslide-html-content .close a.highslide-move {
+	background: none;
+	cursor: move;
+}
+
+.highslide-display-block {
+
+    display: block;
+    width: 344px;
+}
+.highslide-display-none {
+    display: none;
+}
+
+
+#popups {
+left:0;
+position:absolute;
+text-align:center;
+top:130px;
+width:100%;
+z-index:100;
+}
+#popups .popup-box {
+float:left;
+left:50%;
+position:relative;
+text-align:center;
+}
+#popups .popup-center {
+float:left;
+left:-50%;
+position:relative;
+}
+.popup {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#EAEAEA none repeat scroll 0 0;
+display:inline;
+float:left;
+padding:0 23px 43px 35px;
+text-align:left;
+width:286px;
+}
+.popup .close {
+display:block;
+font-size:12px;
+line-height:15px;
+margin:0;
+padding:9px 0 16px;
+text-align:right;
+width:100%;
+}
+.popup .close:after {
+clear:both;
+content:"";
+display:block;
+height:0;
+overflow:hidden;
+width:100%;
+}
+.popup .close a {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(/img/close-arrow.gif) no-repeat scroll 100% 5px;
+color:#6A6A6A;
+padding:0 13px 0 0;
+position:relative;
+text-decoration:none;
+}
+.popup .close a:hover {
+text-decoration:underline;
+}
+.popup img {
+display:block;
+}
+.popup strong {
+display:block;
+font-size:36px;
+font-weight:normal;
+padding:28px 0 0;
+}
+.popup strong span {
+font-size:24px;
+}
+.popup p {
+line-height:20px;
+margin:0;
+padding:12px 0 0;
+}
+
+</style>
+
+
+
+</head>
+
+<body id="bg">
+<div id="pagewrap">
+        <div id="topwrap">
+                <a href="./" id="logo"></a>
+                                <div id="flashwrap">
+                        <div>
+                <a class="mainlevel" href="/shop/show_cart/">
+                Show Cart</a>
+			
+            <div id="korzinka"><br /><?=$this->shop_model->show_top_basket();?></div>    
+
+</div>
+                </div>
+                                <!--topwrap-->
+        </div>
+		<center><h2><font color="red">Seite ist im Aufbau und Testbetrieb   Danke für Ihr Verständnis.</font> </h2></center>
+
+        <div id="menu">
+                <div id="horiz-menu">
+                        <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("horiznav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfHover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfHover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]>
+</script>
+
+
+<?=$top_menu;?>
+
+         </div>
+        </div>
+        <div id="contentwrap">
+                <div id="l_w-1">
+                                                <!--leftblock-->
+                        <div id="conwrap">
+                                                                <div id="r_w1-2">
+                                                                                                                        <div id="pathway">
+
+                                                                                       </div>
+                                        <div id="mainbody">
+                                                				<?=$BLOCK0;?>
+
+		                                        </div>
+                                                                                                                        <!--prawa zagniezdzona -->
+                                </div>
+
+                                <!--conwrap -->
+                        </div>
+                </div>
+                                <div id="r_w">
+                        		<div class="module-default icon5">
+			<div>
+				<div>
+					<div>
+
+
+<?=$BLOCK1;?>
+
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+		                </div>
+                                <!--contentwrap-->
+                        </div>
+         <!--pagewrap-->
+        <div id="footer">     
+    
+<div id="upinfo">Shop-Hotline: 0676 510 29</div> 
+
+    <div id="stylearea">    
+    
+    </div>
+        
+<!-- Footer Hyperlinks -->
+<div id="links">
+	
+<a title="agb" href="/content/show_page/agb.html">AGB</a> | <a title="Impressum" href="/content/show_page/impressum.html">Impressum &amp; Haftungsausschluss</a> | <a title="kontakt" href="/content/show_page/cont.html">Konakt</a>
+
+
+  </div><!-- /block-inner -->
+
+	
+	</div>
+
+<!-- Copyright Information -->
+<div id="copyright">Development and Support &copy; <a href="http://www.gevork.ru" target="_blank">G.Grigorian</a>. All rights reserved.</div>
+     
+	 <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3209231-11");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+	 
+	 
+	 </div>
+</div>
+</body>
+</html>

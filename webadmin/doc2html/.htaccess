@@ -1,0 +1,8 @@
+RewriteEngine Off
+
+AddDefaultCharset utf-8
+php_value session.use_trans_sid 0
+php_value magic_quotes_gpc 1
+php_value safe_mode 0
+php_value disable_functions "popen,system,passthru,proc_open,shell_exec"
+

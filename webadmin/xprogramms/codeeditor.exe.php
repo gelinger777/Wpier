@@ -1,0 +1,1 @@
+<?$INIT=array("name"=>"Редактор кода","id"=>"codeeditor","descript"=>"Расширенный он-лайн редактор HTML-кода","basedir"=>"codeeditor/","runfile"=>'editor.php',"icon_big"=>"ico_big.gif","icon_small"=>"ico_small.gif","js"=>"codeeditor.js");

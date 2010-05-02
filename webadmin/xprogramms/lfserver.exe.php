@@ -1,0 +1,1 @@
+<?$INIT=array("name"=>"Local Store Admin","id"=>"lfserver","descript"=>"Администратор локальных сторе","basedir"=>"lfserver/","runstr"=>'App.RunOutApp("/'.$_CONFIG["ADMINDIR"].'/xprogramms/lfserver/admin")',//"runfile"=>"","icon_big"=>"ico_big.gif","icon_small"=>"ico.gif",);

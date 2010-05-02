@@ -1,0 +1,172 @@
+
+#horiz-menu {
+	height: 38px;
+	font: bold 10px Tahoma, Arial, Helvetica, sans-serif;
+}
+#horiz-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 0px;
+        float:center;
+}
+#horiz-menu li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+#horiz-menu li span {
+	display: block;
+	float: left;
+}
+#horiz-menu a {
+	display: block;
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 18px;
+	text-transform:uppercase;
+	text-decoration: none;
+}
+#horiz-menu li li a {
+	font-size: 10px;
+}
+#horiz-menu a:hover {
+	text-decoration: none;
+}
+#horiz-menu li:hover,
+#horiz-menu li.sfHover {
+	background: none;
+}
+.nav,
+.nav * {
+	margin:0;
+	padding:0;
+}
+div#horiz-menu {
+	position: relative;
+	z-index: 49;
+}
+div#horiz-menu .wrapper {
+	position: relative;
+}
+#horiz-menu li li {
+	margin: 0;
+}
+div#horiz-menu li li span,
+div#horiz-menu li.active li span,
+div#horiz-menu li:hover li span {
+	background:none;
+}
+.nav {
+	line-height:1.0;
+	float:left;
+	margin-bottom:1.5em;
+	position: relative;
+}
+.nav ul {
+	padding: 0;
+}
+.nav li {
+	float:left;
+	list-style:none;
+	position:relative;
+}
+.nav li li a {
+	display:block;
+	padding: 0;
+	text-decoration:none;
+	background-image: none;
+	float:none;
+	width:135px;
+}
+div#horiz-menu li li a {
+	height: 30px;
+	line-height: 30px;
+}
+div#horizmenu li:hover {
+	background-position: 0 0;
+}
+div#horiz-menu li:hover li,
+div#horiz-menu li.sfHover li,
+div#horiz-menu li.active:hover li,
+div#horiz-menu li.active.sfHover li,
+div#horiz-menu li:hover li span,
+div#horiz-menu li.sfHover li span {
+	background-image: none;
+}
+div#horiz-menu li:hover li a,
+div#horiz-menu li.sfHover li a,
+div#horiz-menu li.active:hover li a,
+div#horiz-menu li.active.sfHover li a {
+	background-image: none;
+}
+.nav li ul {
+	float:none;
+	left:-999em;
+	position:absolute;
+	width: 177px;
+	z-index: 5;
+}
+.nav li:hover ul,
+.nav li.sfHover ul {
+	left:0px;
+	top: 38px;
+}
+.nav li:hover li ul,
+.nav li.sfHover li ul,
+.nav li li:hover li ul,
+.nav li li.sfHover li ul,
+.nav li li li:hover li ul,
+.nav li li li.sfHover li ul {
+	top:-999em;
+}
+.nav li li:hover ul,
+.nav li li.sfHover ul,
+.nav li li li:hover ul,
+.nav li li li.sfHover ul,
+.nav li li li li:hover ul,
+.nav li li li li.sfHover ul {
+	left: 177px;
+	top:0px;
+	width: 177px;
+}
+.nav li li {
+	position: relative;
+	float:none;
+	width: 177px;
+}
+#horiz-menu a {
+}
+#horiz-menu li li {
+}
+#horiz-menu li.active {
+}
+#horiz-menu li.active span {
+}
+#horiz-menu li.active a {
+}
+#horiz-menu li:hover span,
+#horiz-menu li.sfHover span {
+}
+#horiz-menu li:hover a,
+#horiz-menu li.sfHover a {
+}
+#horiz-menu li:hover span.topdaddy,
+#horiz-menu li.sfHover span.topdaddy {
+}
+#horiz-menu li:hover span.topdaddy a,
+#horiz-menu li.sfHover span.topdaddy a {
+}
+#horiz-menu li:hover ul,
+#horiz-menu li.sfHover ul {
+}
+#horiz-menu li li:hover,
+#horiz-menu li li.sfHover {
+}
+#horiz-menu li:hover li a.daddy,
+#horiz-menu li.sfHover li a.daddy,
+#horiz-menu li.active:hover li a.daddy,
+#horiz-menu li.active.sfHover li a.daddy {
+}

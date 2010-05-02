@@ -1,0 +1,92 @@
+/*
+ * Ext JS Library 2.0.2
+ * Copyright(c) 2006-2008, Ext JS, LLC.
+ * licensing@extjs.com
+ *
+ * http://extjs.com/license
+ */
+
+#grid-example .x-grid-col-1 {
+	text-align: right;
+}
+#grid-example .x-grid-col-2{
+	text-align: right;
+}
+#grid-example .x-grid-col-3 {
+	text-align: right;
+}
+#grid-example .x-grid-col-4 {
+	text-align: right;
+}
+#grid-example.x-grid-mso{
+	border: 1px solid #6593cf;
+}
+#grid-example.x-grid-vista{
+	border: 1px solid #b3bcc0;
+}
+#xml-grid-example{
+	border: 1px solid #cbc7b8;
+	left: 0;
+	position: relative;
+	top: 0;
+}
+#editor-grid .x-grid-col-2{
+    text-align:right;
+}
+.x-grid3-td-topic b {
+    font-family:tahoma, verdana;
+    display:block;
+}
+.x-grid3-td-topic b i {
+    font-weight:normal;
+    font-style: normal;
+    color:#000;
+}
+.x-grid3-td-topic .x-grid3-cell-inner {
+    white-space:normal;
+}
+.x-grid3-td-topic a {
+    color: #385F95;
+    text-decoration:none;
+}
+.x-grid3-td-topic a:hover {
+    text-decoration:underline;
+}
+.details .x-btn-text {
+    background-image: url(details.gif);
+}
+.x-resizable-pinned .x-resizable-handle-south{
+    background:url(../images/default/sizer/s-handle-dark.gif);
+    background-position: top;
+}
+
+body .x-panel {margin-bottom:20px;}
+#button-grid .x-panel-body {
+    border:1px solid #99bbe8;
+    border-top:0 none;
+}
+.icon-grid {background-image:url(../img/grid.png) !important;}
+.add {background-image:url(../img/plus_circle.png) !important;}
+.option {background-image:url(../img/plugin.gif) !important;}
+.remove {background-image:url(../img/minus_circle.png) !important;}
+.refresh{background-image:url(../img/table_refresh.png) !important;}
+.save {background-image:url(../img/save.gif) !important;}
+.edit {background-image:url(../img/editor.gif) !important;}
+.cut {background-image:url(../img/cut.gif) !important;}
+.copy {background-image:url(../img/copy.gif) !important;}
+.paste_up {background-image:url(../img/paste_up.gif) !important;}
+.paste_down {background-image:url(../img/paste_down.gif) !important;}
+.connect{ background-image:url(../img/magnet.png) !important;}
+.xls{background-image:url(../img/document_excel.png) !important;}
+.csv{background-image:url(../img/document_excel_csv.png) !important;}
+.txt{background-image:url(../img/document_text.png) !important;}
+.xml{background-image:url(../img/xml.gif) !important;}
+
+.grid_lock_cells {background-image:url(../img/grid_lock.png) !important;}
+.grid_unlock_cells {background-image:url(../img/grid_lock_open.png) !important;}
+.grid_set_clear {background-image:url(../img/gear_disable.png) !important;}
+
+#IntrContentDiv {
+  width:100%;
+  height:100%;
+}

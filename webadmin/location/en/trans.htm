@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">  
+
+s='';
+function Trans() {
+  google.language.translate(TT[i][1], "ru", "en", function(result) {  if (!result.error) {    
+     //alert(TT[i][0]+'=>'+result.translation);
+	 document.getElementById("out").value+='"'+TT[i][0]+'":"'+result.translation+'",\n';
+	 i++;
+	 if(i<TT.length) Trans();
+
+  }});
+}
+
+google.load("language", "1");
+
+
+TT=[];
+for (var prop in TEXTS) {
+       eval('x=TEXTS.'+prop);
+	   TT[TT.length]=[prop,x];
+}	   
+
+i=0;
+</script>
+
+</HEAD>
+
+
+<BODY>
+<textarea id="out" cols=50 rows="30"></textarea>
+<input type="button" value="translate" onclick="Trans();">
+</BODY>
+</HTML>

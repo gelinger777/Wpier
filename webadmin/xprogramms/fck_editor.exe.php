@@ -1,0 +1,1 @@
+<?$INIT=array("name"=>"FCK Editor","id"=>"fckeditor","descript"=>"Расширенный он-лайн редактор текста","basedir"=>"fckeditor/","runfile"=>"fckeditor.php","icon_big"=>"ico_big.gif","icon_small"=>"ico_small.gif","js"=>"index.js");?>

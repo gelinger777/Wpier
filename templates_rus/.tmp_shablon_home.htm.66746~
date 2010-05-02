@@ -1,0 +1,288 @@
+<? header('Content-type: text/html; charset=utf-8');?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><?=$wintitle;?></title>
+<link href="/style/style.css" rel="stylesheet" type="text/css" media="screen, all" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<META content="<?=$windescript;?>" name=Description>
+<META content="<?=$winkeywords;?>" name=keywords>
+<!--[if lte IE 6]><link rel="stylesheet" href="/style/ie6.css" type="text/css"><![endif]-->
+</head>
+
+
+
+<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/js/highslide-with-html.packed.js"></script>
+<!--<link rel="stylesheet" type="text/css" href="/js/highslide/highslide.css" />-->
+
+
+<script language="javascript" type="text/javascript">
+
+
+hs.graphicsDir = '/js/highslide/graphics/';
+hs.showCredits = false;
+hs.loadingText = 'Загрузка...';
+hs.loadingTitle = 'Нажмите для отмены';
+hs.restoreTitle = 'Удерживая левую кнопку мыши, можно перетаскивать изображение.';
+hs.outlineWhileAnimating = true;
+hs.outlineType = 'drop-shadow';
+hs.marginLeft = 0;
+hs.marginRight = 0;
+hs.marginTop = 0;
+hs.marginBottom = 0;
+hs.minWidth = 500;
+hs.minHeight = 480;
+hs.maxHeight = 680;
+
+
+
+
+
+</script>
+
+
+<style type="text/css">
+.highslide {
+	cursor: url(/js/highslide/graphics/zoomin.cur), pointer;
+  outline: none;
+}
+.highslide-wrapper {
+	background: #eaeaea;
+}
+.highslide-html {
+	border: 1px solid #656565;
+}
+
+.highslide-html-content .highslide-header {
+  display: none;
+}
+
+.highslide-html-content .close a.highslide-move {
+	background: none;
+	cursor: move;
+}
+
+.highslide-display-block {
+
+    display: block;
+    width: 344px;
+}
+.highslide-display-none {
+    display: none;
+}
+
+
+#popups {
+left:0;
+position:absolute;
+text-align:center;
+top:130px;
+width:100%;
+z-index:100;
+}
+#popups .popup-box {
+float:left;
+left:50%;
+position:relative;
+text-align:center;
+}
+#popups .popup-center {
+float:left;
+left:-50%;
+position:relative;
+}
+.popup {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#EAEAEA none repeat scroll 0 0;
+display:inline;
+float:left;
+padding:0 23px 43px 35px;
+text-align:left;
+width:286px;
+}
+.popup .close {
+display:block;
+font-size:12px;
+line-height:15px;
+margin:0;
+padding:9px 0 16px;
+text-align:right;
+width:100%;
+}
+.popup .close:after {
+clear:both;
+content:"";
+display:block;
+height:0;
+overflow:hidden;
+width:100%;
+}
+.popup .close a {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(/img/close-arrow.gif) no-repeat scroll 100% 5px;
+color:#6A6A6A;
+padding:0 13px 0 0;
+position:relative;
+text-decoration:none;
+}
+.popup .close a:hover {
+text-decoration:underline;
+}
+.popup img {
+display:block;
+}
+.popup strong {
+display:block;
+font-size:36px;
+font-weight:normal;
+padding:28px 0 0;
+}
+.popup strong span {
+font-size:24px;
+}
+.popup p {
+line-height:20px;
+margin:0;
+padding:12px 0 0;
+}
+
+</style>
+
+
+
+<body>
+<table cellpadding="0" cellspacing="0">
+  <tr>
+     <td width="50%">&nbsp;</td>
+
+     <td>
+
+
+<div id="all">
+	<div id="shapka">
+	<div id="logo">
+
+	<p><?=$tel_top;?></p>
+
+	 <form name="search" id="search" action="/content/show_page/search.html" method="post">
+	<input type="text" name="search_word">
+
+	<a href="#" onclick="document['search'].submit();"> <img type="submit" src="/img/butt1.gif" width="56" height="20" border="0" align="absmiddle">
+   </a>  </form>
+
+	</div>
+	<div id="menu">
+	<table cellpadding="0" cellspacing="0">
+  <tr valign="top">
+      <?=$top_menu;?>
+  </tr>
+
+</table>
+<script src="/js/swfobject_modified.js" type="text/javascript"></script>
+<p>
+  <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="709" height="236">
+    <param name="movie" value="/img/main.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="8.0.35.0" />
+    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+
+    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="/img/main.swf" width="709" height="236">
+      <!--<![endif]-->
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="8.0.35.0" />
+      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+
+      <div>
+        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+      </div>
+      <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+  </object>
+
+</p>
+
+<script type="text/javascript">
+<!--
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID2");
+//-->
+</script>
+
+
+	</div>
+	</div>
+
+
+
+	  <table cellpadding="0" cellspacing="0">
+  <tr valign="top">
+     <td id="td_left">
+<?=$BLOCK1;?>
+
+	 </td>
+     <td id="td_right" rowspan="2">
+	 <?=$BLOCK0;?>
+
+
+</td>
+  </tr>
+    <tr valign="top">
+     <td class="bott" align="right">
+
+
+
+	 </td>
+  </tr>
+</table>
+
+
+</div>
+</td>
+     <td width="50%">&nbsp;</td>
+  </tr>
+  <tr><td colspan="3" id="podval">
+
+
+
+
+
+
+  <table cellpadding="0" cellspacing="0">
+  <tr valign="top">
+     <td width="50%" height="50">&nbsp;</td>
+     <td width="290"><!-- копирайт (служебка) -->
+	 <img src="/img/0.gif" width="290" height="1" /><br>
+
+	 <? echo @$copy;?>
+</td>
+     <td width="250"><img src="/img/0.gif" width="250" height="1" /><br>
+<!-- адрес (слжебка) -->
+	 <? echo @$adres;?></td>
+     <td width="320"><img src="/img/0.gif" width="320" height="1" /><br>
+
+	 <a href="http://www.flam.ru/">web дизайн</a> ИЦ "Фламинго"</td>
+
+     <td><!-- код счетсика через админку -->
+	  <? echo @$counters;?></td>
+     <td width="50%">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+  </td></tr>
+</table>
+</body></html>

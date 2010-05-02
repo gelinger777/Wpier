@@ -1,0 +1,74 @@
+
+<?
+	
+$search_word
+		
+	$this->output->enable_profiler(TRUE);
+	$search_word=$this->input->post('search_word');	
+		sleep(3);
+		if(isset($search_word)){
+
+$i=0;   
+   
+                
+    // $this->db->limit(10);
+     //$this->db->order_by('offer_profit','DESC');           
+    //$this->db->like('tags',$search_word);
+                  
+                
+    //$this->db->or_like('name',$search_word);
+                 
+                
+   // $this->db->like('offer_descr',$search_word);
+       
+               
+                
+    $prods= mysql_query("SELECT * FROM `t_products` where `name ` like '%$search_word%' or  `offer_descr` like '%$search_word%' or `tags` like '%$search_word%' order by offer_profit DESC limit 10  ");           
+                
+                
+                
+                
+ if(mysql_num_rows($prods)>0){               
+
+while($offer=mysql_fetch_array($prods,MYSQL_ASSOC))
+{
+
+
+
+echo '<li><a href="/offers/show/'.$offer['hub_alias'].'/" >'.$offer['name'].'</a></li>';
+
+$i++;
+
+
+
+
+
+    }
+
+	
+	echo "</ul>";	
+
+     }
+else
+{
+echo "<li>No Results</li>";
+}
+
+		}
+		else{
+			
+			
+			echo "<li>Error: No search word ...</li>";
+			
+		}	
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+?>

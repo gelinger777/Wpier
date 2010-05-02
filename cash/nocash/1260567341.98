@@ -1,0 +1,93 @@
+<?
+$HTML_FILE="";
+$CurrentCod=3;
+$RootDir="support";
+$pid=0;
+$CurrentDir="support";
+$CurrentId=3;
+$documentTitle='Поддержка';
+$TemplatesPath="templates_rus/";
+?><?
+mb_internal_encoding('UTF-8');
+function ettl($s) { // Отображение заголовков h3
+    $s=strip_tags($s);
+    return "<span>".mb_substr($s,0,1)."</span>".mb_substr($s,1);
+}
+// Выведем заголовок xml эхой, что бы он не распарсился как php
+echo '<?xml version="1.0" encoding="UTF-8"?>'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Wpier</title>
+    <link rel="stylesheet" href="/style/style.css" type="text/css" media="screen">
+    <script type="text/javascript" src="/hlight/scripts/shCore.js"></script>
+	<script type="text/javascript" src="/hlight/scripts/shBrushJScript.js"></script>
+	<script type="text/javascript" src="/hlight/scripts/shBrushPhp.js"></script>
+	<link type="text/css" rel="stylesheet" href="/hlight/styles/shCore.css"/>
+	<link type="text/css" rel="stylesheet" href="/hlight/styles/shThemeDefault.css"/>
+	<script type="text/javascript">
+		SyntaxHighlighter.config.clipboardSwf = 'scripts/clipboard.swf';
+		SyntaxHighlighter.all();
+	</script>
+</head>
+<body>
+   <div id="all">
+        <!-- head -->
+        <div id="head">
+        <center>
+           <div id="head-content">
+            <div id="head-menu">
+                <ul>
+                    <li><a href="/home/">Главная</a></li>
+                    <li><a href="/downloads/">Скачать</a></li>
+                    <li><a href="/support/">Поддержка</a></li>
+                    <li><a href="/support/">Компания</a></li>
+                    <li><a href="/blog/">Блог</a></li>
+                    
+                </ul>
+            </div>
+            <div id="head-text">
+               liberation est perpetuum mobile...
+            </div>
+           </div>
+        </center>
+        </div>
+        <!-- / head -->
+
+        <center>
+        <!-- content -->
+        <div id="content">
+
+            <div id="logo">
+            <div id="logo-text"><span class="rd">W</span>pier<span class="gr">.CMF<small><small>.betta</small></small></span></div>
+            <div id="pg"><h1>Поддержка</h1></div>
+            </div>
+
+            <!-- правая колонка -->
+            <div id="block-2">
+               
+               <!-- INDEXAREA -->
+               
+               <span class="edt:content:text:6:editor">&nbsp;</span>
+                <!-- /INDEXAREA -->
+            </div>
+
+            <!-- / правая колонка -->
+
+           <!-- INDEXAREA -->
+            
+            <span class="edt:content:text:5:editor">&nbsp;</span>
+           <!-- /INDEXAREA -->
+        </div>
+        <!-- / content -->
+        </center>
+
+   </div>
+
+   <div id="foother">
+   <center>
+        <div id="foother-text"><span class="rd">&copy;</span> 2009+,Kolbaskin</div>
+   </center>
+   </div>
+</body>
+</html>

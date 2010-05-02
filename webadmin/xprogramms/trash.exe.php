@@ -1,0 +1,1 @@
+<?$INIT=array("name"=>"Корзина","id"=>"trash","descript"=>"Корзина удаленных объектов","basedir"=>"trash/","runfile"=>"trash.php","icon_big"=>"ico_16.png","icon_small"=>"ico_16.png",//"js"=>"index.js","runstr"=>'OpenNewTab("readext.php?ext=trash","Козина","xprogramms/trash/ico_16.png","trash")');

@@ -1,0 +1,39 @@
+.mbut {
+	width:26px;
+	height:25px;
+        border:0;         	
+}
+
+.mbut_a {
+      background:#e5e5e5 url(../../img/toolbar.buttonbg.gif);
+      width:26px;
+      height:24px;
+      float:left;
+      border:1px solid #dad4c8;
+      margin-right:2px;
+}
+    
+.mbut_a_over {
+      background:#dff1ff;
+      width:26px;
+      height:24px;
+      float:left;
+      border:1px solid #316ac5;
+      margin-right:2px;
+}
+
+#top_buttons_div {
+  background:#f7f7f7;
+  padding:5px;
+  border:1px solid #b2b2a6;
+  height:26px;
+}
+
+#savebutton {background:url(../../img/main/save.gif) no-repeat center center;}
+#saveetalonebutton {background:url(../../img/main/save_etalon.gif) no-repeat center center;}
+#checkbutton {background:url(../../img/main/orfo.gif) no-repeat center center;}
+#closebutton {background:url(../../img/main/close.gif) no-repeat center center;}
+#printbutton {background:url(../../img/main/print.gif) no-repeat center center;}
+#copybutton {background:url(../../img/main/copy.gif) no-repeat center center;}
+#pastebutton {background:url(../../img/main/paste.gif) no-repeat center center;}
+#signbutton {background:url(../../img/main/signat.gif) no-repeat center center;}

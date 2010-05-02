@@ -1,0 +1,62 @@
+<?
+/*DESCRIPTOR
+1,1
+Каталог:Продукты Каталога
+
+
+files:
+group: inforcombest
+version:0.1
+author:
+*/
+
+//HEAD//
+
+$PROPERTIES=array(
+"tbname"=>"products",
+"pagetitle"=>"Главное меню",
+"template_row"=>"show_product.php",
+"template_list"=>"product_show.php",
+"orderby"=>"id",
+"updown"=>"id",
+//"egrid"=>1
+);
+
+$F_ARRAY=Array (
+"id" => "hidden||",
+"name" => "text|size=70|Название Категории",
+"img_0" => "img|x140*/userfiles/*/userfiles/preview/||Кaртинка(Главная)",
+"krom_1" =>"select|products*id*name*kromka='1'/|Кромка 1|/Не Выбран",
+"krom_2" =>"select|products*id*name*kromka='1'/|Кромка 2|/Не Выбран",
+"krom_3" =>"select|products*id*name*kromka='1'/|Кромка 3|/Не Выбран",
+"krom_4" =>"select|products*id*name*kromka='1'/|Кромка 4|/Не Выбран",
+"proizvoditel" => "select|proizvoditeli*id*name|Привязать к Группе",
+//"short_descr"=>"textarea| cols=80 rows=5|Текст справа",
+//"img_right" =>"img|261?x*/userfiles/*/userfiles/preview/|Картинка справа ",
+//"top_descr"=>"textarea| cols=80 rows=5|Верхний текст снизу",
+//"img_bot" =>"img|502?x*/userfiles/*/userfiles/preview/|Кaртинка снизу",
+//"botom_descr"=>"textarea| cols=80 rows=5|Нижний текст снизу",
+//"pid" => "select|catalog_subcats*id*name|Привязать к разделу",
+"priority"=>"text|size=70|Приоритет",
+"novinka" => "checkbox||Новинка|1",
+//"novinka_name" => "text|size=70|Загаловка Новинки",
+"spec" => "checkbox||Спецпредложение|0",
+"kromka" => "checkbox||Этот Продукт КРОМКА|0",
+//"spec_name" => "text|size=70|Заголовик Предложения",
+);
+
+$f_array=Array(
+"img_0" => "Фотка",
+"name" => "Название",
+//"pid" => "Раздел",
+"proizvoditel" => "Группы",
+
+"priority"=>"Приоритет",
+"novinka" => "Новинка",
+"spec" => "Спецпредложение"
+
+//"leftM" => "меню №3||<center><big><b>*</b></big></center>",
+);
+//ENDHEAD//
+
+?>

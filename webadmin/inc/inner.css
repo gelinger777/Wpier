@@ -1,0 +1,414 @@
+body a:link  {
+	color: #DF002D;
+	text-decoration : none;
+}
+
+body a:visited  {
+	color: #DF002D;
+	text-decoration : none;
+}
+
+body a:hover, a:active  {
+	color: #DF002D;
+	text-decoration : underline;
+}
+
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+	padding: 0px;
+	background-image: url(/images/inn_back_top.jpg);
+	background-repeat: repeat-x;
+	background-position: top left;
+	height: 100%;    
+}
+
+body, p, td, ol, ul {
+    font-size : 10px;
+    font-family : Verdana, Tahoma;
+    color : #000000;
+}
+
+p {margin-top: 7px;}
+
+form {
+	margin: 0 0 0 0;
+}
+
+ul {
+	margin: 7 0 7 0;
+	padding-left: 20;
+	list-style-image: url(/images/list.gif);
+	list-style-type: none;
+	line-height: 12px;
+}
+
+.MoreIndent ul {
+	padding-left: 45;
+}
+
+li {
+	margin: 2 0 2 0;
+}
+
+.RedList1 li {
+	list-style-image: url(/images/list_red_jolie.gif);
+}
+
+.RedList2 li {
+	list-style-image: url(/images/list_red_hook.gif);
+}
+
+#content {
+	padding: 0px 0px 40px 0px;
+}
+
+#content img {
+	/*float: right;*/
+	margin: 0px 0px 10px 10px;
+}
+
+.TopMenu a {
+	background-repeat: no-repeat;
+	background-position: top left;
+	font-size : 11px;
+    font-family : Verdana, Tahoma;
+	font-weight: bold;
+    color : #000000;
+	text-transform: lowercase;
+	letter-spacing: -1px;
+	width: 120px;
+	height: 24px;
+	padding-top: 7px;
+	display: block;
+	text-align: center;
+}
+
+.TopMenu a:link {
+	color : #000000;
+	text-decoration: none;
+}
+
+.TopMenu a:visited {
+	color : #000000;
+	text-decoration: none;
+}
+
+.TopMenu a:hover, a:active {
+	color : #000000;
+	text-decoration: none;
+}
+
+.Btn1 a {
+	background-image: url(/images/top_menu_btn01.jpg);
+}
+
+.Btn2 a {
+	background-image: url(/images/top_menu_btn02.jpg);
+}
+
+.Btn3 a {
+	background-image: url(/images/top_menu_btn03.jpg);
+}
+
+.Btn4 a {
+	background-image: url(/images/top_menu_btn04.jpg);
+}
+
+.Btn5 a {
+	background-image: url(/images/top_menu_btn05.jpg);
+}
+
+.Rev a {
+	width: 184px;
+	padding-top: 2px;
+}
+
+.Header00 {
+	color: #DF002D;
+	font-family : Verdana, Tahoma;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.Header03, .Header04, .Header02 {
+	color: #097AAC;
+	font-family : Verdana, Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 7 0 0 0;
+}
+
+.Header02 {
+	color: #6E7580;
+}
+
+.Header04 {
+	font-weight: normal;
+}
+
+.SearchInput, .FormInput, .FormSubmit {
+	width: 100px;
+	height: 17px;
+	background-color: #FFFFFF;
+	border: 1px solid #CAD1D9;
+	font-size: 10px;
+	font-family : Verdana, Tahoma;
+	font-weight: normal;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.InputCombo {
+	width: 180px;
+	height: 19px;
+	border: 1px solid #CAD1D9;
+	font-size: 10px;
+	font-family : Tahoma, Arial;
+	font-weight: normal;
+	margin: 0;
+}
+
+.FormTable, .PageNumbers {
+	margin-top: 7px;
+	border-top: 1px solid #DFE5EA;
+	padding-top: 2px;	
+}
+
+.FormTable input, .FormTable textarea {
+	margin: 7 0 7 15;
+}
+
+.FormInput {
+	width: 180px;
+}
+
+.FormSubmit {
+	width: 80px;
+	height: 19px;
+	background-color: #F5F5F5;
+}
+
+.Area {
+	height: 120px;
+}
+
+.DataTable {
+	width: 100%;
+	margin: 7 0 15 0;
+	border-bottom: 1px solid #DFE5EA;
+}
+
+.DataTable td {
+	padding: 5px;
+	font-size: 9px;
+	color: #6E7580;
+	border-top: 1px solid #DFE5EA;
+}
+
+.TopToolsPlate {
+	background-image: url(/images/top_tools_decor.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.TopTools a, .TopToolsPlate td {
+	color: #484D54;
+	font-size : 10px;
+    font-family : Verdana, Tahoma;
+	font-weight: bold;
+}
+
+.NewsBlock {
+	margin-bottom: 8px;
+}
+
+.NewsDate {
+	color: #097AAC;
+	font-size: 10px;
+}
+
+.NewsHeader {
+	font-weight: bold;
+	color: #484D54;
+}
+
+.Block02, .Block03 {
+	margin: 0 12 0 12;
+}	
+
+.Block03 a {
+	display: block;
+	margin-bottom: 10px;
+}	
+
+.LeftMenuLevel1 {
+	width: 180px;
+	margin-bottom: 40px;
+}
+
+.LeftMenuLevel1 a {
+	display: block;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.LeftMenuLevel2 a {
+	font-size: 9px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.LeftMenuLevel3 {
+	font-weight: normal;
+	font-family: Tahoma;
+	font-size: 9px;
+	color: #DF002D;
+	margin-left: 16px;
+}
+
+.BottomLink {
+	padding-top: 57px;
+}
+
+.BottomLink a, .BottomLink {
+	font-size: 9px;
+}
+
+.BottomLink a:link {
+	color: #6E7580;
+	text-decoration: none;
+}
+
+.BottomLink a:visited {
+	color: #6E7580;
+	text-decoration: none;
+}
+
+.BottomLink a:hover,a:active {
+	color: #6E7580;
+	text-decoration: underline;
+}
+
+.Print a {
+	height: 28px;
+	padding: 2 0 0 41;
+	margin: 0 0 8 12;
+	background-image: url(/images/icon_print.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+	font-size: 9px;
+	display: block;
+}
+
+.LogoPartner {
+	_width: 150;
+	_height: 140px;
+	min-width: 150px;
+	min-height: 150px;
+	float: left;
+	/*border: 1px solid #DFE5EA;*/
+	display: inline;
+	text-align: center;
+	margin: 5;
+}
+
+.LogoPartnerContainer img {
+	margin: 0px;
+	float: none;
+}
+
+/* Links Store */
+
+.LinkBG a {
+	font-weight: bold;
+}
+
+.LinkBG a:link {
+	color: #484D54;
+	text-decoration: none;
+}
+
+.LinkBG a:visited {
+	color: #484D54;
+	text-decoration: none;
+}
+
+.LinkBG a:hover,a:active {
+	color: #484D54;
+	text-decoration: underline;
+}
+
+.LinkBB a {
+	font-weight: bold;
+}
+
+.LinkBB a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+.LinkBB a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.LinkBB a:hover,a:active {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.LinkNB a {
+	font-weight: normal;
+}
+
+.LinkNB a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+.LinkNB a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.LinkNB a:hover,a:active {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.LeftMenuLevel3 a {
+	font-weight: normal;
+	font-size: 9px;
+	display: block;
+	margin-bottom: 1px;
+}
+
+.LeftMenuLevel3 a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+.LeftMenuLevel3 a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.LeftMenuLevel3 a:hover, a:active {
+	color: #DF002D;
+	text-decoration: none;
+}
+
+.select {background:#ffcfcf}
+
+h2, h3, h4, h5 {
+	color: #097AAC;
+	font-family : Verdana, Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 7 0 0 0;
+}
+
+h3, h4, h5 {
+	font-weight: normal;
+}

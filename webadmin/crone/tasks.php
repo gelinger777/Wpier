@@ -1,0 +1,1 @@
+<?$db->query("SELECT id FROM tasks WHERE toadm='".$_SESSION['AdminID']."' and action='1' LIMIT 1");if($db->next_record()) {  echo "newtask";}

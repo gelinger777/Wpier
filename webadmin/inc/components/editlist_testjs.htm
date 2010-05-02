@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function addRowEditList(tabN) {
+  var el=document.all(tabN);
+  var ht=el.lastChild.lastChild.cloneNode(true);
+  ht.style.display="";
+  el.lastChild.lastChild.insertAdjacentElement("beforeBegin",ht);
+}
+
+function delRowEditList(o) {
+	o.parentNode.parentNode.removeNode(true)
+}
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY>
+<table border=1 id="tab1">
+<tr style="display:none">
+<td><input name="a[]"></td>
+<td><input name="b[]"></td>
+<td><input type="button" value="Del" onclick="delRowEditList(this)"></td>
+</tr>
+</table>
+<a href="#" onclick="addRowEditList('tab1')">aaa</a>
+</BODY>
+</HTML>

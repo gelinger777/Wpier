@@ -1,0 +1,172 @@
+p {padding:0;margin:0}
+th{	font-size : 11px; font-family :   Arial;}
+td{	font-size : 11px; font-family :   Arial;}
+input{	font-size : 11px; font-family :   Arial;border: 1 solid  #000000;}
+.smlchk{	font-size : 8px; font-family :   Arial;border:;width:10px;height:10px}
+.smlchk1{border:0;}
+textarea{	font-size : 11px; font-family :   Arial;border: 1 solid  #000000;}
+select{	font-size : 11px; font-family :   Arial;}
+body{	font-size : 11px; font-family :   Arial;}
+h2 {	font-size : 14px; font-family :   Arial;font-weight : bold;color:#144FA5;margin:0;}
+h3 {	font-size : 12px; font-family :   Arial;font-weight : bold;color:#144FA5}
+h4 {	font-size : 12px; font-family :   Arial;font-weight : bold;}
+.href2{font: 9px   Arial; color : #d8d8d8;}
+.white{font: 9px   Arial; color : #FFFFFF;font-weight : bold; }
+
+.td2editor{}
+.td2{font-size : 11px; font-family :   Arial;  background: #144FA5; text-align : center; }
+.hTable {font-size : 11px; font-family :   Arial;  background: #144FA5; text-align : center; }
+
+.td_top{font-size : 11px; font-family :   Arial; font-weight : bold; color: #FFFFFF; text-align : center; background: #4E7AB8;}
+.td_selrow{text-align : left; background: #F87DB8;}
+
+.td_b1{background : #eeeeee;text-align : left;}
+.td_b2{background : #dddddd;text-align : left;}
+
+.td_b1_nopubl{background : #ffeeee;text-align : left;}
+.td_b2_nopubl{background : #ffdddd;text-align : left;}
+
+.td_b11{background : #F1F1F1;text-align : left;}
+.td_b22{background : #C1C1C1;text-align : left;}
+
+.ptd {margin-left:5px; margin-right:5px;margin-top:5px;margin-bottom:5px;font-weight:normal}
+
+.basefont{	font-size : 11px; font-family :   Arial;}
+
+A.menu:link {	width:100%;text-decoration: none;	color : black;background:none; }
+A.menu:active {	width:100%;color: #ffffff;background : #34557E;}
+A.menu:visited {width:100%;text-decoration: none;color : black;background:none;}
+A.menu:hover {width:100%;text-decoration: none;background : #34557E;color : #ffffff;}
+
+
+A.menuH:link {	width:100%;text-decoration: none;	color : #9c9c9c;background:none; }
+A.menuH:active {	width:100%;color: #ffffff;background : #34557E;}
+A.menuH:visited {width:100%;text-decoration: none;color : #9c9c9c;background:none;}
+A.menuH:hover {width:100%;text-decoration: none;background : #34557E;color : #ffffff;}
+
+A.poup:link {	width:100%;text-decoration: none;	color : black;}
+A.poup:active {	width:100%;color: #ffffff;background : #34557E;}
+A.poup:visited {width:100%;text-decoration: none;color : black;}
+A.poup:hover {width:100%;text-decoration: none;background : #34557E;color : #ffffff;}
+
+.tb_border {background: #E3A93E}
+
+.button {font-size: 12px; color: white; background-color: #144FA5; }
+.file {font-size: 12px; color: #000000; background: #FFFFFF;  border: 1 solid  #E3A93E;}
+
+hr {height:1;color:#144FA5;margin:0}
+
+.topmenuon {cursor:hand;background:none}
+.topmenuoff {color:#ffffff;cursor:hand;background:#144FA5 url(new/topm.gif);}
+.tdconon {}
+.tdconoff {background:#144FA5 url(../../img/new/topcon.gif);background-repeat:no-repeat;}
+.leftdiv{border-bottom:1 solid #144FA5;width:100%;background:#f1f1f1 url(new/topmbg.gif);background-position:left bottom;background-repeat:no-repeat}
+
+A.block:link {text-decoration: none;	color : black; }
+A.block:active  {	text-decoration: none;	color : black; }
+A.block:visited  {text-decoration: none;	color : black; }
+A.block:hover  {	text-decoration: underline;	color : black; }
+
+A.extblock:link {	text-decoration: none;	 }
+A.extblock:active  {	text-decoration: none;	}
+A.extblock:visited  {	text-decoration: none;	 }
+A.extblock:hover  {	text-decoration: underline;	}
+
+.lenguagesel {background: #144FA5;color:#ffffff;width:50;}
+.lenguagetd {width:50;border:1 solid #144FA5;}
+
+A.lenguagelink:link {	width:100%;height:100%;text-decoration: none;	 }
+A.lenguagelink:active  {	width:100%;height:100%;text-decoration: none;	}
+A.lenguagelink:visited  {	width:100%;height:100%;text-decoration: none;	 }
+A.lenguagelink:hover  {	width:100%;height:100%;text-decoration: none;	background: #144FA5;color:#ffffff;width:50;}
+
+.srchinp{	font-size : 9px; font-family :   Arial;border: 1 solid  #000000;width:100%}
+
+.rsl {color:#9B1455;background: #cfcfcf;}
+
+.mrg{padding-left:5px}
+.wa{color:white}
+
+.editlist{
+  border:1 solid #000000;
+  padding:2px;
+}
+.editlist_th {
+  background:#ececec;
+  font-weight:bold;
+  text-align: center;
+}
+
+.show {
+	background:#ededed url(show.gif);
+	background-position: top left;
+	background-repeat:no-repeat;
+	border-top:1px solid #efefef;
+	border-left:1px solid #efefef;
+	border-bottom:1px solid #acacac;
+	border-right:1px solid #acacac;
+	padding:2px;
+        padding-left:22px;
+	padding-right:22px;
+        font-size : 14px; 
+        font-family :   Arial;
+        font-weight : bold;
+        color:#144FA5;
+        margin:0px;
+        text-decoration:none;
+        width:100%;
+}
+
+.hide {
+	background:#ededed url(hide.gif);
+	background-position: top left;
+	background-repeat:no-repeat;    
+	border-top:1px solid #acacac;
+	border-left:1px solid #acacac;
+	border-bottom:1px solid #efefef;
+	border-right:1px solid #efefef;
+	
+	padding:2px;
+        padding-left:22px;
+        padding-right:22px;
+	font-size : 14px; 
+        font-family :   Arial;
+        font-weight : bold;
+        color:#144FA5;
+        margin:0px;
+        text-decoration:none;
+        width:100%;
+}
+
+#reserv_div {
+      background:#f7f7f7;
+      padding:5px;
+      border:1px solid #b2b2a6;
+}
+
+html, body {
+        font:normal 12px verdana;
+        margin:0;
+        padding:0;
+        border:0 none;
+        overflow:hidden;
+        height:100%;
+ }
+    
+.txtStyle {
+       float:left;
+       width:175px;
+       padding-right:5px
+}
+p {
+	    margin:5px;
+}
+.settings {background-image:url(folder_wrench.png);}
+.nav {background-image:url(folder_go.png);}
+.inpDiv {padding:2 0 2 0;}
+.cut{background-image:url(cut.gif) !important;}
+.copy{background-image:url(main/copy.gif) !important;}
+.paste{background-image:url(main/paste.gif) !important;}
+.editor{background-image:url(editor.gif) !important;}
+
+.require {color:red;font-weight:bold}

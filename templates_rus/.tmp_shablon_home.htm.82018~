@@ -1,0 +1,558 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<title>Buratino-Shop Home</title>
+<META content="<?=$windescript;?>" name=Description>
+<META content="<?=$winkeywords;?>" name=keywords>
+
+<meta name="robots" content="index, follow" />
+
+<meta name="author and developer" content="G.Grigorian" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/style/style_shop.css" rel="stylesheet"  type="text/css" />
+
+<link href="/style/suckerfish.css" rel="stylesheet"  type="text/css" />
+<link href="/style/template_css.css" rel="stylesheet"  type="text/css" />
+<link href="/style/style1.css" rel="stylesheet"  type="text/css" />
+<!--[if IE 6]>
+<style type="text/css">
+img { behavior: url(/style/iepngfix.htc); }
+
+
+div#flashwrap {
+background: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://demo.gavick.com/joomla10/nov2007/templates/rhuk_solarflare_ii/images/icon_shop.png", sizingMethod="crop");}
+
+</style>
+<link href="/style/ie6_css.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="/style/ie7_css.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="http://demo.gavick.com/joomla10/nov2007/templates/rhuk_solarflare_ii/scripts/mootools.js"></script>
+<script type="text/javascript" src="http://demo.gavick.com/joomla10/nov2007/templates/rhuk_solarflare_ii/scripts/template_scripts.js"></script>
+<script type="text/javascript" src="http://demo.gavick.com/joomla10/nov2007/templates/rhuk_solarflare_ii/scripts/gk_blocksfix.js"></script>
+<script type="text/javascript">
+	var gk8_path = 'http://demo.gavick.com/joomla10/nov2007/templates/rhuk_solarflare_ii/';
+</script>
+<!--*** Hack for Virtuemart shop - button Add to Cart *** -->
+<script type="text/javascript" src="http://demo.gavick.com/joomla10/nov2007/templates/rhuk_solarflare_ii/scripts/vm_hack.js"></script>
+</head>
+
+<body id="bg">
+<div id="pagewrap">
+        <div id="topwrap">
+                <a href="./" id="logo"></a>
+                                <div id="flashwrap">
+                        <div>
+                <a class="mainlevel" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&option=com_virtuemart&Itemid=26">
+                Show Cart</a>
+            <br />Your Cart is currently empty.	    
+
+</div>
+                </div>
+                                <!--topwrap-->
+        </div>
+        <div id="menu">
+                <div id="horiz-menu">
+                        <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("horiznav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfHover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfHover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]>
+</script>
+
+<ul class="nav" id="horiznav"><li class="active"><span class="top"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_frontpage&amp;Itemid=1">Home</a></span></li>
+
+<li><span class="topdaddy"><a class="topdaddy" href="http://demo.gavick.com/joomla10/nov2007/#">Modules</a></span><ul>
+<li><span class="top"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=18&amp;Itemid=29">Modules Positions</a></span></li>
+<li><span class="top"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=19&amp;Itemid=30">Module Variations</a></span></li>
+</ul></li>
+<li><span class="top"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=17&amp;Itemid=27">Typography</a></span></li>
+<li><span class="top"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=5&amp;Itemid=6">Joomla! License</a></span></li>
+<li><span class="top"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=section&amp;id=1&amp;Itemid=2">News</a></span></li>
+<li><span class="top"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=blogsection&amp;id=0&amp;Itemid=9">Blog</a></span></li>
+<li><span class="top"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_weblinks&amp;Itemid=23">Links</a></span></li>
+
+<li><span class="top"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_search&amp;Itemid=5">Search</a></span></li>
+<li><span class="top"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_virtuemart&amp;Itemid=26">Products</a></span></li>
+</ul>                </div>
+        </div>
+        <div id="contentwrap">
+                <div id="l_w-1">
+                                                <div id="user_position-1">
+                                                                <div class="us_1-center">
+                                        		<div class="module-slider">
+
+			<div>
+				<div>
+					<div>
+						<div class="gk_vm_scroller_container_1" style="width:690px"><div class="gk_vm_scroller_container_2" style="width: 690px;overflow: hidden;"><div class="gk_vm_scroller_container_3" style="width: 1328px;">		<div class="gk_vm_product_block" style="height:200px;width:108px;">
+			<div>
+				<div>
+					<div>
+						<span style="font-weight:bold;">Sony FX720</span>
+
+<br />
+<a title="Sony FX720" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=1&flypage=shop.flypage&product_id=5&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/2672df29bf870507cb74bef69ff712e6.jpg"  width="90" alt="Sony FX720" border="0" /></a><br />
+<span style="color:red;">
+<strike>$28.15</strike> </span>
+<br/><span style="font-weight:bold">
+$24.34</span>
+ <br />You Save: $3.81<br />
+<a title="Add to Cart: Sony FX720" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=5&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+					</div>
+				</div>
+
+			</div>
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+			<div>
+				<div>
+					<div>
+						<span style="font-weight:bold;">Asus W5Fe</span>
+<br />
+<a title="Asus W5Fe" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=3&flypage=shop.garden_flypage&product_id=20&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/a2865589ce0a35a364e047a0389df650.jpg"  width="90" alt="Asus W5Fe" border="0" /></a><br />
+
+<span style="color:red;">
+<strike>$779.40</strike> </span>
+<br/><span style="font-weight:bold">
+$775.59</span>
+ <br />You Save: $3.81<br />
+<a title="Add to Cart: Asus W5Fe" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=20&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+					</div>
+				</div>
+			</div>
+
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+			<div>
+				<div>
+					<div>
+						<span style="font-weight:bold;">iPhone</span>
+<br />
+<a title="iPhone" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=2&flypage=shop.flypage&product_id=19&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/f3d29f64133ff2e00f3866c0d5733250.jpg"  width="90" alt="iPhone" border="0" /></a><br />
+<span style="color:red;">
+<strike>$541.25</strike> </span>
+
+<br/><span style="font-weight:bold">
+$537.44</span>
+ <br />You Save: $3.81<br />
+<a title="Add to Cart: iPhone" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=19&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+
+			<div>
+				<div>
+					<div>
+						<span style="font-weight:bold;">Asus R2Hv</span>
+<br />
+<a title="Asus R2Hv" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=3&flypage=shop.garden_flypage&product_id=4&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/ba6e63c66fd80ee890fb601ab69f9295.jpg"  width="90" alt="Asus R2Hv" border="0" /></a><br />
+<span style="color:red;">
+<strike>$703.63</strike> </span>
+<br/><span style="font-weight:bold">
+$699.82</span>
+
+ <br />You Save: $3.81<br />
+<a title="Add to Cart: Asus R2Hv" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=4&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+			<div>
+
+				<div>
+					<div>
+						<span style="font-weight:bold;">Sony S500i</span>
+<br />
+<a title="Sony S500i" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=2&flypage=shop.flypage&product_id=18&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/5e5e69c8d92a547b09e6e48469eda506.jpg"  width="90" alt="Sony S500i" border="0" /></a><br />
+<span style="color:red;">
+<strike>$324.75</strike> </span>
+<br/><span style="font-weight:bold">
+$320.94</span>
+ <br />You Save: $3.81<br />
+
+<a title="Add to Cart: Sony S500i" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=18&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+			<div>
+				<div>
+					<div>
+
+						<span style="font-weight:bold;">Sony SR32</span>
+<br />
+<a title="Sony SR32" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=1&flypage=shop.flypage&product_id=1&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/0f9575b663959476c6f74acacc3f003e.jpg"  width="90" alt="Sony SR32" border="0" /></a><br />
+<span style="color:red;">
+<strike>$5.40</strike> </span>
+<br/><span style="font-weight:bold">
+$1.59</span>
+ <br />You Save: $3.81<br />
+<a title="Add to Cart: Sony SR32" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=1&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+			<div>
+				<div>
+					<div>
+						<span style="font-weight:bold;">Sony K850i</span>
+
+<br />
+<a title="Sony K850i" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=2&flypage=shop.flypage&product_id=10&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/dba0049e120c2047d09ef57740739f5a.jpg"  width="90" alt="Sony K850i" border="0" /></a><br />
+<span style="color:red;">
+<strike>$81.18</strike> </span>
+<br/><span style="font-weight:bold">
+$77.37</span>
+ <br />You Save: $3.81<br />
+<a title="Add to Cart: Sony K850i" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=10&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+					</div>
+				</div>
+
+			</div>
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+			<div>
+				<div>
+					<div>
+						<span style="font-weight:bold;">Sony W960i</span>
+<br />
+<a title="Sony W960i" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=2&flypage=shop.flypage&product_id=8&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/1c13b404bb21b7d5b98e3fe579f0c31d.jpg"  width="90" alt="Sony W960i" border="0" /></a><br />
+
+<span style="color:red;">
+<strike>$239.12</strike> </span>
+<br/><span style="font-weight:bold">
+$235.31</span>
+ <br />You Save: $3.81<br />
+<a title="Add to Cart: Sony W960i" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=8&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+					</div>
+				</div>
+			</div>
+
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+			<div>
+				<div>
+					<div>
+						<span style="font-weight:bold;">Asus VX2</span>
+<br />
+<a title="Asus VX2" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=3&flypage=shop.garden_flypage&product_id=3&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/ee7637f35c5a0659a190ff6ae8218407.jpg"  width="90" alt="Asus VX2" border="0" /></a><br />
+<span style="color:red;">
+<strike>$866.00</strike> </span>
+
+<br/><span style="font-weight:bold">
+$862.19</span>
+ <br />You Save: $3.81<br />
+<a title="Add to Cart: Asus VX2" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=3&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+
+			<div>
+				<div>
+					<div>
+						<span style="font-weight:bold;">LN-S2341W</span>
+<br />
+<a title="LN-S2341W" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=1&flypage=shop.flypage&product_id=17&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/b7640659ffe1c751dd7652585d98adb9.jpg"  width="90" alt="LN-S2341W" border="0" /></a><br />
+<span style="color:red;">
+<strike>$324.75</strike> </span>
+<br/><span style="font-weight:bold">
+$322.75</span>
+
+ <br />You Save: $2.00<br />
+<a title="Add to Cart: LN-S2341W" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=17&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+			<div>
+
+				<div>
+					<div>
+						<span style="font-weight:bold;">Hammer</span>
+<br />
+<a title="Hammer" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=1&flypage=shop.flypage&product_id=6&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/fba2605bdde5d93dddc146da8005a684.jpg"  width="90" alt="Hammer" border="0" /></a><br />
+<span style="color:red;">
+<strike>$2.00</strike> </span>
+<br/><span style="font-weight:bold">
+$0.00</span>
+ <br />You Save: $2.00<br />
+
+<a title="Add to Cart: Hammer" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=6&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="gk_vm_product_block" style="height:200px;width:108px;">
+			<div>
+				<div>
+					<div>
+
+						<span style="font-weight:bold;">Panasonic CF</span>
+<br />
+<a title="Panasonic CF" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.product_details&category_id=3&flypage=shop.garden_flypage&product_id=2&option=com_virtuemart&Itemid=26"><img src="http://demo.gavick.com/joomla10/nov2007/components/com_virtuemart/shop_image/product/71a9327d1d42bf35d8db545ccc2ae526.jpg"  width="90" alt="Panasonic CF" border="0" /></a><br />
+<span style="color:red;">
+<strike>$270.63</strike> </span>
+<br/><span style="font-weight:bold">
+$266.82</span>
+ <br />You Save: $3.81<br />
+<a title="Add to Cart: Panasonic CF" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&func=cartAdd&product_id=2&option=com_virtuemart&Itemid=26">Add to Cart</a><br />
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div></div><div id="gk_vm_pagin"><div class="gk_vm_scroller_left"></div><div class="gk_vm_scroller_right"></div></div></div><script type="text/javascript" src="modules/mod_gk_vm_product_scroll/scripts/engine.js"></script><div style="clear:both;"></div>					</div>
+				</div>
+			</div>
+		</div>
+
+		                                </div>
+                                                                                                                        </div>
+                                                <!--leftblock-->
+                        <div id="conwrap">
+                                                                <div id="l_w1">
+                                        		<div class="module-color">
+			<div>
+				<div>
+					<div>
+
+						<h3>VirtueMart Module</h3>
+          <a title="TV, Video&amp;Audio" style="display:block;" class="mainlevel" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.browse&amp;category_id=1&option=com_virtuemart&Itemid=26" >TV, Video&amp;Audio</a>
+          <a title="Mobile Phones" style="display:block;" class="mainlevel" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.browse&amp;category_id=2&option=com_virtuemart&Itemid=26" >Mobile Phones</a>
+          <a title="Computers, Notebooks" style="display:block;" class="mainlevel" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.browse&amp;category_id=3&option=com_virtuemart&Itemid=26" >Computers, Notebooks</a><table cellpadding="1" cellspacing="1" border="0" width="100%">
+  
+  <!--BEGIN Search Box --> 
+  <tr valign="top"> 
+    <td colspan="2">
+
+	  <hr />
+      <label for="shop_search_field">Product Search</label>
+      <form action="http://demo.gavick.com/joomla10/nov2007/index.php" method="get">
+        <input id="shop_search_field" title="Search" class="inputbox" type="text" size="11" name="keyword" />
+        <input class="button" type="submit" name="Search" value="Search" />
+		<input type="hidden" name="Itemid" value="26" />
+		<input type="hidden" name="option" value="com_virtuemart" />
+		<input type="hidden" name="page" value="shop.browse" />
+
+	  </form>
+        <br />
+        <a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_virtuemart&page=shop.search&Itemid=26">
+            Advanced Search        </a>        <hr />
+    </td>
+  </tr>
+  <!-- End Search Box --> 
+ 	  
+		<tr valign="top">
+
+		  <td colspan="2" align="left" valign="top" style="margin: 0px; padding: 0px;">
+			<form action="http://demo.gavick.com/joomla10/nov2007/index.php?option=login" method="post" name="login" id="login">
+			<label for="username_field">Username</label><br/>
+			<input class="inputbox" type="text" id="username_field" size="30" name="username" />
+		  <br/>
+			<label for="password_field">Password</label><br/>
+			<input type="password" class="inputbox" id="password_field" size="30" name="passwd" />
+			<input type="hidden" value="login" name="op2" />
+
+			<input type="hidden" value="yes" name="remember" />
+						<input type="hidden" value="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_frontpage&Itemid=1&Itemid=26" name="return" />
+		  <br/>
+			<input type="submit" value="Login" class="button" name="Login" />
+			
+						<input type="hidden" name="j4cddd13b5d5d3d441a4a829490dc8a26" value="1" />
+			</form>
+		  </td>
+		</tr>
+		<tr>
+
+		  <td colspan="2">
+			<a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_registration&amp;task=lostPassword&amp;Itemid=26">
+			Lost your Password?			</a>
+		  </td>
+		</tr>
+					<tr>
+			  <td colspan="2">
+				No account yet?				<a href="http://demo.gavick.com/joomla15/nov2007/index.php?option=com_virtuemart&amp;page=shop.registration&Itemid=26">
+
+				Register				</a>
+				<hr />
+			  </td>
+			</tr>
+			    <tr>
+        <td colspan="2">
+		<a class="mainlevel" href="http://demo.gavick.com/joomla10/nov2007/index.php?page=shop.cart&option=com_virtuemart&Itemid=26">Show Cart</a>
+	</td>
+
+    </tr>
+    <tr>
+        <td colspan="2">Your Cart is currently empty.</td>
+    </tr>
+         
+   
+</table>
+					</div>
+				</div>
+			</div>
+
+		</div>
+				<div class="module-clear">
+			<div>
+				<div>
+					<div>
+						<a href="index.php?page=shop.cart&amp;func=cartAdd&amp;product_id=19&amp;option=com_virtuemart&amp;Itemid=26"><img src="images/stories/demo/banner3.jpg" border="0" alt="banner1" width="201" height="172" /></a>  					</div>
+				</div>
+			</div>
+
+		</div>
+		                                        <!--lewa zagniezdzona -->
+                                </div>
+                                                                <div id="r_w1-1">
+                                                                                <div class="us-stand">
+                                                		<div class="module-clear">
+			<div>
+				<div>
+					<div>
+
+						<a href="index.php?option=com_virtuemart&amp;Itemid=26"><img src="images/stories/demo/banner.jpg" border="0" alt="banner" width="477" height="216" /></a> 					</div>
+				</div>
+			</div>
+		</div>
+		                                        </div>
+                                                                                                                        <div id="pathway">
+                                                <span class="pathway">Home </span>                                        </div>
+
+                                        <div id="mainbody">
+                                                <table class="blog" cellpadding="0" cellspacing="0"><tr><td valign="top"><table width="100%"  cellpadding="0" cellspacing="0"><tr><td valign="top" width="100%">				<table class="contentpaneopen">
+			<tr>
+								<td class="contentheading" width="100%">
+					Welcome to the eShoptrix									</td>
+							</tr>
+			</table>
+			
+		<table class="contentpaneopen">
+
+				<tr>
+			<td valign="top" colspan="2">
+				<p><img src="http://demo.gavick.com/joomla10/nov2007/images/stories/demo/img-5.jpg" width="135" height="133" style="float: right;" hspace="6" alt="Image" title="Image" border="0" />Joomla! is set to change all that ... Joomla! is different from the normal models for portal software. For a start, it&#39;s not complicated. Joomla! has been developed for the masses. It&#39;s licensed under the GNU/GPL license, easy to install and administer and reliable. </p><p>Joomla! doesn&#39;t even require the user or administrator of the system to know HTML to operate it once it&#39;s up and running know HTML to operate it once it&#39;s up ...</p>			</td>
+		</tr>
+						<tr>
+
+					<td align="left" colspan="2">
+						<a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=1" class="readon">
+							Read more...</a>
+					</td>
+				</tr>
+						</table>
+
+		<span class="article_seperator">&nbsp;</span>
+
+		</td></tr></table></td></tr></table>                                        </div>
+                                                                                <div class="us-stand">
+                                                		<div class="module-clear">
+			<div>
+				<div>
+					<div>
+						<img src="images/stories/demo/banner2.jpg" border="0" alt="banner" width="477" height="80" /> 					</div>
+				</div>
+
+			</div>
+		</div>
+		                                        </div>
+                                                                                                                        <!--prawa zagniezdzona -->
+                                </div>
+                                <!--conwrap -->
+                        </div>
+                </div>
+                                <div id="r_w">
+
+                        		<div class="module-clear">
+			<div>
+				<div>
+					<div>
+						<a href="index.php?page=shop.cart&amp;func=cartAdd&amp;product_id=2&amp;option=com_virtuemart&amp;Itemid=26"><img src="images/stories/demo/img-4.jpg" border="0" alt="Advertisement1" width="203" height="200" /></a> 					</div>
+				</div>
+			</div>
+		</div>
+
+				<div class="module-default icon5">
+			<div>
+				<div>
+					<div>
+						<h3> New to the Store </h3><table  class="gk_news_block_table" id="gk_news_block-1" style="width: 100%;" ><tr valign="top" class="gk_news_block_tablerow"><td style="width: 100%;" class="gk_news_block_center"><div><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=6&amp;Itemid=9"><img class="gk_news_block_news_image" src="http://demo.gavick.com/joomla10/nov2007/images/stories/demo/img-1.jpg" style="height: 91px;width: 170px;display: block;margin: 0 auto;" alt="News image" /></a></div><h4 class="gk_news_block_news_header" style="text-align: left;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=6&amp;Itemid=9">Get results. Give Apple.</a></h4><p class="gk_news_block_news_text" style="text-align: justify;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat...</p><a class="readon" href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=6&amp;Itemid=9" style="float: left;">Readmore</a></td></tr><tr valign="top" class="gk_news_block_tablerow"><td style="width: 100%;" class="gk_news_block_center"><div><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=7&amp;Itemid=9"><img class="gk_news_block_news_image" src="http://demo.gavick.com/joomla10/nov2007/images/stories/demo/img-2.jpg" style="height: 91px;width: 170px;display: block;margin: 0 auto;" alt="News image" /></a></div><h4 class="gk_news_block_news_header" style="text-align: left;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=7&amp;Itemid=9">Give iTunes Gift Cards</a></h4><p class="gk_news_block_news_text" style="text-align: justify;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat...</p><a class="readon" href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=7&amp;Itemid=9" style="float: left;">Readmore</a></td></tr><tr valign="top" style="display: none;" class="gk_news_block_tablerow"><td style="width: 100%;" class="gk_news_block_center"><div><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=9"><img class="gk_news_block_news_image" src="http://demo.gavick.com/joomla10/nov2007/images/stories/demo/img-5.jpg" style="height: 91px;width: 170px;display: block;margin: 0 auto;" alt="News image" /></a></div><h4 class="gk_news_block_news_header" style="text-align: left;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=9">Welcome to the eShoptrix</a></h4><p class="gk_news_block_news_text" style="text-align: justify;">Joomla! is set to change all that ... Joomla! is different from the normal models for portal software. For a start, it&#39;s not compli...</p><a class="readon" href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=9" style="float: left;">Readmore</a></td></tr><tr valign="top" style="display: none;" class="gk_news_block_tablerow"><td style="width: 100%;" class="gk_news_block_center"><div><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=8&amp;Itemid=9"><img class="gk_news_block_news_image" src="http://demo.gavick.com/joomla10/nov2007/images/stories/demo/img-3.jpg" style="height: 91px;width: 170px;display: block;margin: 0 auto;" alt="News image" /></a></div><h4 class="gk_news_block_news_header" style="text-align: left;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=8&amp;Itemid=9">Save money on books</a></h4><p class="gk_news_block_news_text" style="text-align: justify;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat...</p><a class="readon" href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=8&amp;Itemid=9" style="float: left;">Readmore</a></td></tr><tr class="gk_news_block_tablerow"><td colspan="1" class="gk_news_block_tablerow_bottom gk_news_block_tablerow"><ul class="gk_news_block_list"><li style="display: none;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=6&amp;Itemid=9">Get results. Give Apple.</a></li><li style="display: none;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=7&amp;Itemid=9">Give iTunes Gift Cards</a></li><li style="display: block;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=9">Welcome to the eShoptrix</a></li><li style="display: block;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=8&amp;Itemid=9">Save money on books</a></li></ul></td></tr><tr class="gk_news_block_tablerow_top gk_news_block_tablerow"><td class="gk_news_block_panel-border" colspan="1"><div class="gk_news_block_panel"><div class="gk_news_block_panel_font"><div class="gk_news_block_panel_font_path"><div class="gk_news_block_panel_font_knob"></div></div><span class="gk_news_block_panel_font_value">100%</span></div><div class="gk_news_block_panel_amount"><div class="gk_news_block_panel_amount_minus">-</div><div class="gk_news_block_panel_amount_plus">+</div><span class="gk_news_block_panel_amount_value">2</span></div></div><div class="gk_news_block_panel_tools gk_news_block_panel_tools_hidden">Show options</div></td></tr></table><script type="text/javascript" src="modules/mod_gk_news_block/scripts/engine.js"></script>					</div>
+
+				</div>
+			</div>
+		</div>
+		                </div>
+                                <!--contentwrap-->
+                                <div id="user_position-4">
+                                                <div class="us_4-center">
+                                		<div class="module-color">
+			<div>
+
+				<div>
+					<div>
+						<table  class="gk_news_block_table" id="gk_news_block-2" style="width: 100%;" ><tr valign="top" class="gk_news_block_tablerow"><td style="width: 25%;" class="gk_news_block_left"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=12&amp;Itemid=2"><img class="gk_news_block_news_image" src="http://demo.gavick.com/joomla10/nov2007/images/stories/demo/img-8.png" style="height: 87px;width: 205px;display: block;float: left;" alt="News image" /></a><h4 class="gk_news_block_news_header" style="text-align: left;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=12&amp;Itemid=2">Buy the K850i</a></h4><p class="gk_news_block_news_text" style="text-align: left;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam...</p></td><td style="width: 25%;" class="gk_news_block_center"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=13&amp;Itemid=9"><img class="gk_news_block_news_image" src="http://demo.gavick.com/joomla10/nov2007/images/stories/demo/img-6.png" style="height: 87px;width: 205px;display: block;float: left;" alt="News image" /></a><h4 class="gk_news_block_news_header" style="text-align: left;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=13&amp;Itemid=9">Revolutionary Phone</a></h4><p class="gk_news_block_news_text" style="text-align: left;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam...</p></td><td style="width: 25%;" class="gk_news_block_center"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=14&amp;Itemid=9"><img class="gk_news_block_news_image" src="http://demo.gavick.com/joomla10/nov2007/images/stories/demo/img-7.png" style="height: 87px;width: 205px;display: block;float: left;" alt="News image" /></a><h4 class="gk_news_block_news_header" style="text-align: left;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=14&amp;Itemid=9">Sony Ericsson Phone</a></h4><p class="gk_news_block_news_text" style="text-align: left;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam...</p></td><td style="width: 25%;" class="gk_news_block_right"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=15&amp;Itemid=2"><img class="gk_news_block_news_image" src="http://demo.gavick.com/joomla10/nov2007/images/stories/demo/img-9.png" style="height: 87px;width: 205px;display: block;float: left;" alt="News image" /></a><h4 class="gk_news_block_news_header" style="text-align: left;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=15&amp;Itemid=2">Your MacBook Pro</a></h4><p class="gk_news_block_news_text" style="text-align: left;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam...</p></td></tr><tr class="gk_news_block_tablerow"><td colspan="4" class="gk_news_block_tablerow_bottom gk_news_block_tablerow"><ul class="gk_news_block_list"><li style="display: none;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=12&amp;Itemid=2">Buy the K850i</a></li><li style="display: none;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=13&amp;Itemid=9">Revolutionary Phone</a></li><li style="display: none;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=14&amp;Itemid=9">Sony Ericsson Phone</a></li><li style="display: none;"><a href="http://demo.gavick.com/joomla10/nov2007/index.php?option=com_content&amp;task=view&amp;id=15&amp;Itemid=2">Your MacBook Pro</a></li></ul></td></tr><tr class="gk_news_block_tablerow_top gk_news_block_tablerow"><td class="gk_news_block_panel-border" colspan="4"><div class="gk_news_block_panel"><div class="gk_news_block_panel_font"><div class="gk_news_block_panel_font_path"><div class="gk_news_block_panel_font_knob"></div></div><span class="gk_news_block_panel_font_value">100%</span></div><div class="gk_news_block_panel_amount"><div class="gk_news_block_panel_amount_minus">-</div><div class="gk_news_block_panel_amount_plus">+</div><span class="gk_news_block_panel_amount_value">4</span></div></div><div class="gk_news_block_panel_tools gk_news_block_panel_tools_hidden">Show options</div></td></tr></table>					</div>
+
+				</div>
+			</div>
+		</div>
+		                        </div>
+                                                                                        </div>
+                        </div>
+         <!--pagewrap-->
+        <div id="footer">     
+    
+<div id="upinfo">You can also order from The eShoptrix Store by calling 0044 678 989 567.</div> 
+
+    <div id="stylearea">    
+       <a href="#bg" id="top"></a>
+
+       <a href="#" class="style_switcher" id="st_icon-0"></a> 
+       <a href="#" class="style_switcher" id="st_icon-1"></a> 
+       <a href="#" class="style_switcher" id="st_icon-2"></a>      
+    </div>
+        
+<!-- Footer Hyperlinks -->
+<div id="links">
+	
+<a title="agb" href="/node/3">AGB</a> | <a title="Impressum" href="/node/4">Impressum &amp; Haftungsausschluss</a> | <a title="kontakt" href="/content/anfrageformular">Konakt</a>
+
+
+  </div><!-- /block-inner -->
+
+	
+	</div>
+
+<!-- Copyright Information -->
+<div id="copyright">Development and Support &copy; <a href="http://www.gevork.ru" target="_blank">G.Grigorian</a>. All rights reserved.</div>
+     </div>
+</div>
+</body>
+</html>
